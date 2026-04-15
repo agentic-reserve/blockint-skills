@@ -1,6 +1,6 @@
 ---
 name: blockchain-intelligence-playbook
-description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, Phalcon Compliance documentation pointer, Chainalysis public Sanctions API/oracle router, FATF official AML/CFT glossary, Arkham Intel research article on leading crypto analysis tools for traders, risk exposure, behavioral risk, address and transaction screening workflow concepts, Range AI investigation playbook (MCP), crypto market mechanics, OSINT (Bellingcat toolkit), Solana external stacks (Helius, Range MCP, Tavily, PayAI, React Flow, Solana Policy Institute), DeFi/MEV/rug skills, privileged-access mitigation lessons (Chainalysis Drift case study), BlockchainSpider open-source data collection, MoTS (Know Your Transactions / transaction semantics research repo), Impersonator dApp devtools (EVM + Solana read-only address presentation), and Katana web crawling. Use when the task spans multiple topics or the user needs help picking which named skill to load.
+description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, Phalcon Compliance documentation pointer, Chainalysis public Sanctions API/oracle router, FATF official AML/CFT glossary, Arkham Intel research article on leading crypto analysis tools for traders, risk exposure, behavioral risk, address and transaction screening workflow concepts, Range AI investigation playbook (MCP), crypto market mechanics, OSINT (Bellingcat toolkit), Solana external stacks (Helius, Range MCP, Tavily, PayAI, React Flow, Solana Policy Institute), DeFi/MEV/rug skills, privileged-access mitigation lessons (Chainalysis Drift case study), coral-xyz sealevel-attacks Solana security examples, BlockchainSpider open-source data collection, MoTS (Know Your Transactions / transaction semantics research repo), Impersonator dApp devtools (EVM + Solana read-only address presentation), and Katana web crawling. Use when the task spans multiple topics or the user needs help picking which named skill to load.
 ---
 
 # Blockchain intelligence — skill index
@@ -31,6 +31,7 @@ This repository splits topics into **focused skills** (load the specific skill w
 | Admin takeover, blind signing, Solana durable nonces (mitigations) | **defi-admin-takeover-mitigation-lessons** |
 | EVM Solidity contracts (Ethereum/L2) | **evm-solidity-defi-triage-agent** |
 | Solana programs (Anchor, PDAs, CPIs) | **solana-defi-vulnerability-analyst-agent** |
+| Sealevel Attacks repo (Solana exploit pattern examples) | **sealevel-attacks-solana** |
 | Honeypot / sell restrictions | **honeypot-detection-techniques** |
 | Launch rug red flags | **rug-pull-pattern-detection-agent** |
 | Flash-loan incidents | **flash-loan-exploit-investigator-agent** |
@@ -84,6 +85,7 @@ When in doubt, load **on-chain-investigator-agent** or this index.
 | **sandwich-attack-investigator-agent** | **Sandwich** / DEX **MEV** post-mortems: same-block or bundle ordering, victim vs searcher metrics, mitigations |
 | **mev-bot-infrastructure-analysis-agent** | **MEV** **infrastructure**: searchers, bundles/builders/relays, strategies, profit paths, centralization metrics (public data) |
 | **solana-defi-vulnerability-analyst-agent** | **Solana** DeFi **program** risks: Anchor/PDAs/CPIs, oracles, pools, SPL, safe repro / severity reporting |
+| **sealevel-attacks-solana** | [sealevel-attacks](https://github.com/coral-xyz/sealevel-attacks) — **Anchor**-based **exploit** / **mitigation** pattern examples for the Solana VM (educational; defensive use) |
 | **katana-web-crawling** | **ProjectDiscovery Katana** install, crawl vs headless, scope, rate limits, pipelines |
 
 ## Quality checklist (all domains)

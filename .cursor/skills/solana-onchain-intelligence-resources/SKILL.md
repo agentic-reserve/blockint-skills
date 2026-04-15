@@ -1,6 +1,6 @@
 ---
 name: solana-onchain-intelligence-resources
-description: Companion to blockint-skills Solana work—official doc indexes and stacks for RPC/indexers, sanctions and address intel MCP, web research, agent payments, graph UIs, Solana Foundation dev skills, Solana Policy Institute (policy/regulatory education), optional open-source Scrapy collection (BlockchainSpider), and Impersonator Solana (dApp dev/testing). Use when the user needs pointers to Helius, Range AI, Tavily, PayAI x402, React Flow, Solana.com skills, or SPI alongside on-chain forensics—not as a substitute for reading current provider docs, legal counsel, or API keys.
+description: Companion to blockint-skills Solana work—official doc indexes and stacks for RPC/indexers, sanctions and address intel MCP, web research, agent payments, graph UIs, Solana Foundation dev skills, Solana Policy Institute (policy/regulatory education), optional open-source Scrapy collection (BlockchainSpider), Impersonator Solana (dApp dev/testing), and coral-xyz sealevel-attacks (security pattern examples). Use when the user needs pointers to Helius, Range AI, Tavily, PayAI x402, React Flow, Solana.com skills, or SPI alongside on-chain forensics—not as a substitute for reading current provider docs, legal counsel, or API keys.
 ---
 
 # Solana on-chain intelligence — external resources
@@ -11,6 +11,11 @@ Use this skill together with **solana-tracing-specialist**, **solana-clustering-
 
 - **Agent skills hub:** [solana.com/SKILL.md](https://solana.com/SKILL.md) — install foundation-maintained skills (for example `npx skills add` from linked repos); categories include security checklist, testing, Kit/web3.js interop, payments, IDL clients.
 - Use when building or auditing programs and clients; pair with **solana-defi-vulnerability-analyst-agent** for review posture.
+
+## Sealevel Attacks (educational exploit / mitigation patterns)
+
+- **Repository:** [coral-xyz/sealevel-attacks](https://github.com/coral-xyz/sealevel-attacks) — minimal **Anchor** programs demonstrating Solana-specific vulnerability patterns and fixes (defensive / learning use).
+- **In bundle:** **sealevel-attacks-solana** — ethics and pairing with audit workflows.
 
 ## Helius (Solana infrastructure and docs index)
 
@@ -65,7 +70,7 @@ Use this skill together with **solana-tracing-specialist**, **solana-clustering-
 | Cluster addresses, Jito | **solana-clustering-advanced** | Helius, on-chain data |
 | Risk/sanctions screen | **crypto-investigation-compliance** | Range MCP (**range-ai-investigation-playbook**) |
 | Web corroboration | **bellingcat-investigation-toolkit** | Tavily |
-| Program security | **solana-defi-vulnerability-analyst-agent** | Solana Foundation skills, Helius/Surfpool for testing |
+| Program security | **solana-defi-vulnerability-analyst-agent** | Solana Foundation skills, **sealevel-attacks-solana**, Helius/Surfpool for testing |
 | Graph UI | — | React Flow |
 | dApp UI as arbitrary address (dev/testing, ethics) | **impersonator-dapp-devtools** | [impersonator-solana](https://github.com/impersonator-eth/impersonator-solana) README |
 | Solana policy / regulatory context (education) | **crypto-investigation-compliance** | Solana Policy Institute site |

@@ -42,6 +42,7 @@ Skills live under `.cursor/skills/`. The **`blockchain-intelligence-playbook`** 
 | `sandwich-attack-investigator-agent` | DEX sandwich MEV post-mortems: EVM + Solana bundles, slippage/profit estimates, evidence packs |
 | `mev-bot-infrastructure-analysis-agent` | MEV infrastructure: searchers, bundles/builders, strategy fingerprints, concentration, public data |
 | `solana-defi-vulnerability-analyst-agent` | Solana DeFi program risks: Anchor/PDAs/CPIs, oracles, pools, SPL, historical tx reconstruction |
+| `sealevel-attacks-solana` | [coral-xyz/sealevel-attacks](https://github.com/coral-xyz/sealevel-attacks) — **Anchor** examples of Solana exploit patterns & mitigations (educational) |
 | `katana-web-crawling` | Crawling / spidering with Katana |
 
 Copy `.cursor/skills/` into a project or symlink for global use, for example:
