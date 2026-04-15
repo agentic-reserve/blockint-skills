@@ -1,6 +1,6 @@
 ---
 name: agentskills-specification
-description: Points to the official Agent Skills open-format specification and documentation—agentskills/agentskills on GitHub (spec, docs, reference SDK, example skills) and agentskills.io. Use when the user asks how Agent Skills work, SKILL.md structure, contributing to the ecosystem, or aligning blockint skills with the upstream format—not as a substitute for reading the live specification and LICENSE terms in the upstream repo.
+description: Points to the official Agent Skills open-format—agentskills/agentskills on GitHub, agentskills.io docs (including llms.txt index: Overview, What are skills?, Specification, Integrate skills into your agent). Use when the user asks how Agent Skills work, SKILL.md structure, integration, contributing, or aligning blockint skills with the upstream format—not as a substitute for reading the live specification and LICENSE terms in the upstream repo.
 ---
 
 # Agent Skills — open format (reference)
@@ -16,13 +16,25 @@ description: Points to the official Agent Skills open-format specification and d
 
 The upstream project describes **Agent Skills** as a simple, open format: folders of instructions, scripts, and resources that agents can discover for task-specific expertise (“write once, use everywhere”). The repo holds the **specification**, **documentation**, **reference SDK** material, and pointers to **example skills** and community channels (e.g. Discord — see live README).
 
+## Documentation index ([llms.txt](https://agentskills.io/llms.txt))
+
+Use **[agentskills.io/llms.txt](https://agentskills.io/llms.txt)** as the machine-readable **index** of first-party docs (discover pages before deep-linking). It currently lists:
+
+| Doc | URL |
+|-----|-----|
+| **Overview** | [agentskills.io/home.md](https://agentskills.io/home.md) — open format for agent capabilities and expertise |
+| **What are skills?** | [agentskills.io/what-are-skills.md](https://agentskills.io/what-are-skills.md) — lightweight format for specialized knowledge and workflows |
+| **Specification** | [agentskills.io/specification.md](https://agentskills.io/specification.md) — complete format specification |
+| **Integrate skills into your agent** | [agentskills.io/integrate-skills.md](https://agentskills.io/integrate-skills.md) — adding Agent Skills support to an agent or tool |
+
 ## What to read there
 
 | Area | Typical use |
 |------|----------------|
-| **Specification** | Exact format expectations for portable skills |
-| **Documentation** | Guides and tutorials |
-| **Example skills** | Patterns and breadth of what skills can encode |
+| **Specification** | [specification.md](https://agentskills.io/specification.md) — exact format expectations for portable skills |
+| **Integration** | [integrate-skills.md](https://agentskills.io/integrate-skills.md) — agent/tool implementers |
+| **Documentation** | [home.md](https://agentskills.io/home.md), [what-are-skills.md](https://agentskills.io/what-are-skills.md) — concepts |
+| **Example skills** | Patterns and breadth (see GitHub README + examples) |
 | **Contributing** | [CONTRIBUTING.md](https://github.com/agentskills/agentskills/blob/main/CONTRIBUTING.md) in-repo |
 
 ## License (summary)
@@ -41,4 +53,4 @@ Upstream states: code in the repository is under **Apache-2.0**; documentation u
 - **Upstream wins** — If blockint layout ever diverges from the published spec, treat **agentskills** as the portability reference.  
 - **No credential paste** — Spec work does not require embedding secrets in skills.
 
-**Goal:** stable pointers to **[agentskills/agentskills](https://github.com/agentskills/agentskills)** and **[agentskills.io](https://agentskills.io)** for **Agent Skills** format and documentation alignment.
+**Goal:** stable pointers to **[agentskills/agentskills](https://github.com/agentskills/agentskills)**, **[agentskills.io/llms.txt](https://agentskills.io/llms.txt)**, and **[agentskills.io/specification.md](https://agentskills.io/specification.md)** for **Agent Skills** format and documentation alignment.

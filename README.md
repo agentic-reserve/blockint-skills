@@ -10,7 +10,7 @@ Skills live under `.cursor/skills/`. The **`blockchain-intelligence-playbook`** 
 |-----------|--------|
 | `address-clustering-attribution` | **Clustering** heuristics, entity/label/tag, attribution |
 | `address-screening-workflow-concepts` | Tags/markers, bulk CSV import, address list/detail, blacklist/whitelist patterns (educational) |
-| `agentskills-specification` | [agentskills/agentskills](https://github.com/agentskills/agentskills) — **Agent Skills** open **format** (spec, docs, examples; [agentskills.io](https://agentskills.io)) |
+| `agentskills-specification` | [agentskills/agentskills](https://github.com/agentskills/agentskills) + [agentskills.io/llms.txt](https://agentskills.io/llms.txt) — **Agent Skills** format ([spec](https://agentskills.io/specification.md), [integrate](https://agentskills.io/integrate-skills.md)) |
 | `arkham-leading-crypto-analysis-tools` | [Arkham research](https://info.arkm.com/research/leading-crypto-analysis-tools-for-traders-investors) — survey of **fundamental / technical / on-chain** tool landscape for traders (not investment advice) |
 | `armaniferrante-x-status-solana-reference` | [@armaniferrante X post](https://x.com/armaniferrante/status/1411589629384355840) — **citation bookmark** (open URL for verbatim text) |
 | `behavioral-risk-screening-concepts` | Large-value / high-frequency / transit behavior, rapid-transit tx rules (educational) |
