@@ -1,6 +1,6 @@
 ---
 name: solana-onchain-intelligence-resources
-description: Companion to blockint-skills Solana work—official doc indexes and stacks for RPC/indexers, sanctions and address intel MCP, web research, agent payments, graph UIs, and Solana Foundation dev skills. Use when the user needs pointers to Helius, Range AI, Tavily, PayAI x402, React Flow, or Solana.com skills alongside on-chain forensics—not as a substitute for reading current provider docs or API keys.
+description: Companion to blockint-skills Solana work—official doc indexes and stacks for RPC/indexers, sanctions and address intel MCP, web research, agent payments, graph UIs, Solana Foundation dev skills, and Solana Policy Institute (policy/regulatory education). Use when the user needs pointers to Helius, Range AI, Tavily, PayAI x402, React Flow, Solana.com skills, or SPI alongside on-chain forensics—not as a substitute for reading current provider docs, legal counsel, or API keys.
 ---
 
 # Solana on-chain intelligence — external resources
@@ -37,6 +37,13 @@ Use this skill together with **solana-tracing-specialist**, **solana-clustering-
 - **Documentation index:** [reactflow.dev/llms.txt](https://reactflow.dev/llms.txt) — node-based diagrams, layouts, accessibility.
 - Use when building or specifying interactive wallet or transaction graph UIs. Data still comes from RPC and indexers, not from React Flow itself.
 
+## Solana Policy Institute (policy and regulatory education)
+
+- **Site:** [solanapolicyinstitute.org](https://www.solanapolicyinstitute.org/) — describes itself as a non-partisan, non-profit focused on educating policymakers on decentralized networks such as Solana and on legal clarity for people building and using them.
+- **Content types (as presented on the site):** issue-area explainers (for example stablecoins, developer protections, tax clarity for staking), **newsroom** and **blog**, and a **legal archive** (filings, amicus briefs, comment and coalition letters).
+- **Use in blockint:** background on **public** policy and **regulatory** narratives around Solana—not case law for a specific investigation. Pair with **crypto-investigation-compliance** when the user needs to separate **on-chain facts** from **legal** or **institutional** follow-up.
+- **Not** legal advice; **not** a substitute for qualified counsel or official government guidance.
+
 ## How to combine with blockint
 
 | Task | blockint skill | Often paired with |
@@ -47,6 +54,7 @@ Use this skill together with **solana-tracing-specialist**, **solana-clustering-
 | Web corroboration | **bellingcat-investigation-toolkit** | Tavily |
 | Program security | **solana-defi-vulnerability-analyst-agent** | Solana Foundation skills, Helius/Surfpool for testing |
 | Graph UI | — | React Flow |
+| Solana policy / regulatory context (education) | **crypto-investigation-compliance** | Solana Policy Institute site |
 
 ## Ethical guardrails
 
@@ -54,4 +62,4 @@ Use this skill together with **solana-tracing-specialist**, **solana-clustering-
 - Range and sanctions-style tools support compliance workflows; they do not replace legal conclusions.
 - PayAI and x402 involve real payments; the user must configure keys and networks.
 
-**Goal:** give one place to tie Solana on-chain intel work in blockint to the documentation indexes and products teams already use: Helius, Range, Tavily, PayAI, React Flow, and Solana Foundation.
+**Goal:** give one place to tie Solana on-chain intel work in blockint to the documentation indexes and products teams already use: Helius, Range, Tavily, PayAI, React Flow, Solana Foundation, and the Solana Policy Institute for policy-facing context.

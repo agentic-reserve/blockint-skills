@@ -48,3 +48,4 @@ Chains attract misuse due to **pseudonymity**, **speed**, **cross-border** reach
 - **blockchain-analytics-operations** — AML-style platform context  
 - **bellingcat-investigation-toolkit** — [Bellingcat’s OSINT tool catalog](https://bellingcat.gitbook.io/toolkit) (general open-source investigation tools; verify live links)  
 - **evm-solidity-defi-triage-agent** — EVM Solidity DeFi contract triage (complements chain tracing)  
+- **solana-onchain-intelligence-resources** — includes [Solana Policy Institute](https://www.solanapolicyinstitute.org/) for **public** policy and regulatory **education** on Solana (not legal advice); use for context separate from per-case facts  
