@@ -27,6 +27,7 @@ Skills live under `.cursor/skills/`. The **`blockchain-intelligence-playbook`** 
 | `solana-clustering-advanced` | Advanced Solana clustering: graphs, bundles, launchpads, PDAs, ML |
 | `solana-clustering-case-study-agent` | Solana clustering → public case studies, threads, evidence packs, reproducible exports |
 | `defi-security-audit-agent` | DeFi audit/rug-risk triage: contracts, liquidity, governance, bridges, evidence reports |
+| `defi-admin-takeover-mitigation-lessons` | Privileged-access failures (e.g. [Drift hack](https://www.chainalysis.com/blog/lessons-from-the-drift-hack/)): signers, nonces, oracles, monitoring |
 | `evm-solidity-defi-triage-agent` | EVM Solidity DeFi triage: proxies, oracles, reentrancy, access control (Ethereum/L2) |
 | `honeypot-detection-techniques` | Honeypot-style token checks: EVM transfer gates, SPL/Token-2022, safe validation |
 | `rug-pull-pattern-detection-agent` | Launch rug-risk: LP/dev patterns, locks, coordinated exits, red-flag scoring (public data) |

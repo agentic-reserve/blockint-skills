@@ -1,6 +1,6 @@
 ---
 name: blockchain-intelligence-playbook
-description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, Phalcon Compliance documentation pointer, risk exposure, behavioral risk, address and transaction screening workflow concepts, Range AI investigation playbook (MCP), crypto market mechanics, OSINT (Bellingcat toolkit), Solana external stacks (Helius, Range MCP, Tavily, PayAI, React Flow, Solana Policy Institute), DeFi/MEV/rug skills, and Katana web crawling. Use when the task spans multiple topics or the user needs help picking which named skill to load.
+description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, Phalcon Compliance documentation pointer, risk exposure, behavioral risk, address and transaction screening workflow concepts, Range AI investigation playbook (MCP), crypto market mechanics, OSINT (Bellingcat toolkit), Solana external stacks (Helius, Range MCP, Tavily, PayAI, React Flow, Solana Policy Institute), DeFi/MEV/rug skills, privileged-access mitigation lessons (Chainalysis Drift case study), and Katana web crawling. Use when the task spans multiple topics or the user needs help picking which named skill to load.
 ---
 
 # Blockchain intelligence — skill index
@@ -25,6 +25,7 @@ This repository splits topics into **focused skills** (load the specific skill w
 | Solana entity clustering / Jito / launchpads | **solana-clustering-advanced** |
 | Cross-chain bridges and unified graphs | **cross-chain-clustering-techniques-agent** |
 | Broad DeFi audit + rug/governance | **defi-security-audit-agent** |
+| Admin takeover, blind signing, Solana durable nonces (mitigations) | **defi-admin-takeover-mitigation-lessons** |
 | EVM Solidity contracts (Ethereum/L2) | **evm-solidity-defi-triage-agent** |
 | Solana programs (Anchor, PDAs, CPIs) | **solana-defi-vulnerability-analyst-agent** |
 | Honeypot / sell restrictions | **honeypot-detection-techniques** |
@@ -62,6 +63,7 @@ When in doubt, load **on-chain-investigator-agent** or this index.
 | **solana-clustering-advanced** | **Solana** entity clustering: graphs, Jito/launchpad heuristics, PDAs, ML validation, confidence scoring |
 | **solana-clustering-case-study-agent** | **Solana** clustering → **case studies**: narrative, visuals, CSV/query exports, thread or long-form |
 | **defi-security-audit-agent** | **DeFi** security / rug-risk triage: contracts, liquidity, governance, bridges, severity reports from public data |
+| **defi-admin-takeover-mitigation-lessons** | **Privileged access** failures—signer hygiene, Solana durable nonces, oracle/collateral abuse, monitoring—using [Chainalysis Drift analysis](https://www.chainalysis.com/blog/lessons-from-the-drift-hack/) as case anchor |
 | **evm-solidity-defi-triage-agent** | EVM Solidity DeFi triage: proxies, oracles, reentrancy, access control (Ethereum / L2) |
 | **honeypot-detection-techniques** | **Honeypot**-style **risk**: EVM/SPL patterns, static review, fork sim, observational heuristics |
 | **rug-pull-pattern-detection-agent** | **Launch** rug-risk: liquidity locks/removal, dev/sniper clusters, contract authorities, tiered scores |
