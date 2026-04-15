@@ -1,6 +1,6 @@
 ---
 name: blockchain-intelligence-playbook
-description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, Phalcon Compliance documentation pointer, risk exposure and behavioral risk screening concepts, crypto market mechanics, OSINT (Bellingcat toolkit), Solana external stacks (Helius, Range MCP, Tavily, PayAI, React Flow, Solana Policy Institute), DeFi/MEV/rug skills, and Katana web crawling. Use when the task spans multiple topics or the user needs help picking which named skill to load.
+description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, Phalcon Compliance documentation pointer, risk exposure, behavioral risk, and address screening workflow concepts, crypto market mechanics, OSINT (Bellingcat toolkit), Solana external stacks (Helius, Range MCP, Tavily, PayAI, React Flow, Solana Policy Institute), DeFi/MEV/rug skills, and Katana web crawling. Use when the task spans multiple topics or the user needs help picking which named skill to load.
 ---
 
 # Blockchain intelligence — skill index
@@ -15,6 +15,7 @@ This repository splits topics into **focused skills** (load the specific skill w
 | Phalcon Compliance product documentation URL | **phalcon-compliance-documentation** |
 | Risk indicators, exposure %, address/tx screening templates | **risk-exposure-screening-concepts** |
 | Structuring-like frequency, large transfers, transit / rapid movement | **behavioral-risk-screening-concepts** |
+| Address tags/markers, CSV screening, blacklist vs whitelist UX | **address-screening-workflow-concepts** |
 | General OSINT tool discovery (non-chain) | **bellingcat-investigation-toolkit** |
 | End-to-end on-chain forensics persona | **on-chain-investigator-agent** |
 | Solana txs, ATAs, SPL | **solana-tracing-specialist** |
@@ -48,6 +49,7 @@ When in doubt, load **on-chain-investigator-agent** or this index.
 | **phalcon-compliance-documentation** | **Phalcon Compliance** public **documentation** portal — compliance investigation / monitoring product docs (read live site for features) |
 | **risk-exposure-screening-concepts** | **Risk exposure** vocabulary: indicator taxonomies, exposure value/%, address vs transaction templates (entity, interaction, blacklist) — educational |
 | **behavioral-risk-screening-concepts** | **Behavioral** patterns: large-value, high-frequency / structuring-like, transit addresses, rapid-transaction rules — educational |
+| **address-screening-workflow-concepts** | **Address** inventory: tags vs markers, CSV bulk import, list/detail pages, audit/alert views, blacklist/whitelist semantics — educational |
 | **bellingcat-investigation-toolkit** | Bellingcat OSINT toolkit: GitBook + GitHub catalog for general investigation tool discovery |
 | **crypto-market-structures** | Max pain, covered-call ETFs, arbitrage, bull/bear **flags** (non-prescriptive) |
 | **on-chain-investigator-agent** | **End-to-end** forensic investigator persona: tracing, contracts, scam heuristics, evidence reports, ethics |

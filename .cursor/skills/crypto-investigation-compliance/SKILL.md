@@ -52,3 +52,4 @@ Chains attract misuse due to **pseudonymity**, **speed**, **cross-border** reach
 - **phalcon-compliance-documentation** — canonical URL for **Phalcon Compliance** **public** documentation (product operator reference; not legal advice)  
 - **risk-exposure-screening-concepts** — risk **indicator** categories, exposure metrics, address vs transaction screening templates (commercial screening vocabulary; not a legal finding)  
 - **behavioral-risk-screening-concepts** — volume, velocity, transit-style **behavior** rules at address and transaction level (alerts are not proof of crime)  
+- **address-screening-workflow-concepts** — tags/markers, bulk import, address list/detail, blacklist/whitelist **policy** patterns in screening UIs (not legal advice)  
