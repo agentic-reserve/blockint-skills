@@ -50,3 +50,4 @@ Chains attract misuse due to **pseudonymity**, **speed**, **cross-border** reach
 - **evm-solidity-defi-triage-agent** — EVM Solidity DeFi contract triage (complements chain tracing)  
 - **solana-onchain-intelligence-resources** — includes [Solana Policy Institute](https://www.solanapolicyinstitute.org/) for **public** policy and regulatory **education** on Solana (not legal advice); use for context separate from per-case facts  
 - **phalcon-compliance-documentation** — canonical URL for **Phalcon Compliance** **public** documentation (product operator reference; not legal advice)  
+- **risk-exposure-screening-concepts** — risk **indicator** categories, exposure metrics, address vs transaction screening templates (commercial screening vocabulary; not a legal finding)  

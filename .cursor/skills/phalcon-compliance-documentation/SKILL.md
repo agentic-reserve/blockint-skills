@@ -20,6 +20,7 @@ The site may apply standard bot or browser challenges; if automated fetch fails,
 | Need | Skill |
 |------|--------|
 | Ethical investigation workflow, reporting posture, crime taxonomy | **crypto-investigation-compliance** |
+| Risk indicator taxonomies, exposure value/percentage, screening templates (conceptual) | **risk-exposure-screening-concepts** |
 | AML-style platform and analytics context | **blockchain-analytics-operations** |
 | On-chain tracing (Solana) | **solana-tracing-specialist** |
 | Multi-chain clustering | **cross-chain-clustering-techniques-agent** |
