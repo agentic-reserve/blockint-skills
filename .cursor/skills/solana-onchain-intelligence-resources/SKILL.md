@@ -20,6 +20,7 @@ Use this skill together with **solana-tracing-specialist**, **solana-clustering-
 ## Neodyme Solana Security Workshop
 
 - **Site:** [workshop.neodyme.io](https://workshop.neodyme.io/) — structured **levels**, **PoC framework**, and intentionally **vulnerable** example programs for learning offensive/defensive Solana program security ([Neodyme](https://neodyme.io/)).
+- **Source:** [neodyme-labs/neodyme-breakpoint-workshop](https://github.com/neodyme-labs/neodyme-breakpoint-workshop) — **mdBook** (`docs/`, `mdbook serve`), **level0–level4** / **pocs**, Docker assets.
 - **In bundle:** **neodyme-solana-security-workshop** — follow the workshop **Legal Notice**; not for copying vulnerable code into production.
 
 ## Osec — Solana auditor introduction (blog)

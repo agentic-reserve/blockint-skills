@@ -91,7 +91,7 @@ When in doubt, load **on-chain-investigator-agent** or this index.
 | **mev-bot-infrastructure-analysis-agent** | **MEV** **infrastructure**: searchers, bundles/builders/relays, strategies, profit paths, centralization metrics (public data) |
 | **solana-defi-vulnerability-analyst-agent** | **Solana** DeFi **program** risks: Anchor/PDAs/CPIs, oracles, pools, SPL, safe repro / severity reporting |
 | **sealevel-attacks-solana** | [sealevel-attacks](https://github.com/coral-xyz/sealevel-attacks) — **Anchor**-based **exploit** / **mitigation** pattern examples for the Solana VM (educational; defensive use) |
-| **neodyme-solana-security-workshop** | [Neodyme workshop](https://workshop.neodyme.io/) — **Solana** security **levels**, PoC framework, vulnerable examples (follow site legal notice) |
+| **neodyme-solana-security-workshop** | [workshop.neodyme.io](https://workshop.neodyme.io/) / [neodyme-breakpoint-workshop](https://github.com/neodyme-labs/neodyme-breakpoint-workshop) — **Solana** security **levels**, PoC framework, mdBook **source** (follow site legal notice) |
 | **osec-solana-auditor-introduction** | [Osec blog](https://osec.io/blog/2022-03-14-solana-security-intro) — **auditor**-oriented **runtime** intro (BPF, accounts, System Program; 2022; verify docs) |
 | **armaniferrante-x-status-solana-reference** | [@armaniferrante](https://x.com/armaniferrante/status/1411589629384355840) **X post** bookmark — open URL for **verbatim** text; not a spec |
 | **katana-web-crawling** | **ProjectDiscovery Katana** install, crawl vs headless, scope, rate limits, pipelines |

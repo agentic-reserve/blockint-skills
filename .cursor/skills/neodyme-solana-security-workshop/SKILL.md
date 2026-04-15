@@ -1,6 +1,6 @@
 ---
 name: neodyme-solana-security-workshop
-description: Points to Neodyme’s public Solana Security Workshop (workshop.neodyme.io)—hands-on levels, PoC framework, and intentionally vulnerable programs for learning attack and defense on Solana. Use when the user names Neodyme workshop, wants a structured Solana program security curriculum alongside sealevel-attacks-solana—not for reusing vulnerable code in production or attacking live systems without authorization.
+description: Points to Neodyme’s public Solana Security Workshop (workshop.neodyme.io) and its open-source mdBook source on GitHub (neodyme-labs/neodyme-breakpoint-workshop)—hands-on levels, PoC framework, and intentionally vulnerable programs for learning attack and defense on Solana. Use when the user names Neodyme workshop, the Breakpoint workshop repo, or wants a structured Solana program security curriculum alongside sealevel-attacks-solana—not for reusing vulnerable code in production or attacking live systems without authorization.
 ---
 
 # Neodyme — Solana Security Workshop (reference)
@@ -10,6 +10,14 @@ description: Points to Neodyme’s public Solana Security Workshop (workshop.neo
 ## Canonical URL
 
 - **[Solana Security Workshop](https://workshop.neodyme.io/)** — hosted by **[Neodyme](https://neodyme.io/)** (security research firm; has supported Solana ecosystem peer reviews per workshop intro).
+
+## Source repository (mdBook)
+
+The static site is built from the public repo:
+
+- **[github.com/neodyme-labs/neodyme-breakpoint-workshop](https://github.com/neodyme-labs/neodyme-breakpoint-workshop)** — **Solana Security Workshop for Breakpoint** (Neodyme); contains **`docs/`** (mdBook content), **`level0`–`level4`** / **`pocs`** challenge layout, **Docker** files, and **`book.toml`**.
+
+Per upstream [README](https://github.com/neodyme-labs/neodyme-breakpoint-workshop/blob/main/README.md): install **mdBook** (`cargo install mdbook`), then `mdbook serve` to browse locally; all narrative detail is under **`docs/`**.
 
 ## What it is
 
@@ -43,4 +51,4 @@ Upstream text stresses that **example code is intentionally vulnerable** and **n
 - **Responsible disclosure** — findings in **third-party** mainnet programs follow project **bug bounty** / disclosure rules.  
 - **Legal** — comply with computer misuse and platform terms in your jurisdiction.
 
-**Goal:** a stable pointer to **[workshop.neodyme.io](https://workshop.neodyme.io/)** for **structured Solana program security** practice inside blockint.
+**Goal:** stable pointers to **[workshop.neodyme.io](https://workshop.neodyme.io/)** and **[neodyme-breakpoint-workshop](https://github.com/neodyme-labs/neodyme-breakpoint-workshop)** for **structured Solana program security** practice and **local/offline** mdBook builds inside blockint.
