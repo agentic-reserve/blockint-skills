@@ -1,6 +1,6 @@
 ---
 name: blockchain-intelligence-playbook
-description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, Phalcon Compliance documentation pointer, risk exposure, behavioral risk, address and transaction screening workflow concepts, Range AI investigation playbook (MCP), crypto market mechanics, OSINT (Bellingcat toolkit), Solana external stacks (Helius, Range MCP, Tavily, PayAI, React Flow, Solana Policy Institute), DeFi/MEV/rug skills, privileged-access mitigation lessons (Chainalysis Drift case study), BlockchainSpider open-source data collection, MoTS (Know Your Transactions / transaction semantics research repo), and Katana web crawling. Use when the task spans multiple topics or the user needs help picking which named skill to load.
+description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, Phalcon Compliance documentation pointer, risk exposure, behavioral risk, address and transaction screening workflow concepts, Range AI investigation playbook (MCP), crypto market mechanics, OSINT (Bellingcat toolkit), Solana external stacks (Helius, Range MCP, Tavily, PayAI, React Flow, Solana Policy Institute), DeFi/MEV/rug skills, privileged-access mitigation lessons (Chainalysis Drift case study), BlockchainSpider open-source data collection, MoTS (Know Your Transactions / transaction semantics research repo), Impersonator dApp devtools (EVM + Solana read-only address presentation), and Katana web crawling. Use when the task spans multiple topics or the user needs help picking which named skill to load.
 ---
 
 # Blockchain intelligence — skill index
@@ -37,6 +37,7 @@ This repository splits topics into **focused skills** (load the specific skill w
 | Web crawling | **katana-web-crawling** |
 | Scrapy/Python on-chain datasets, transfer subgraphs (BlockchainSpider) | **blockchain-spider-toolkit** |
 | MoTS / KYT transaction semantics, WWW 2023 paper reproduction | **mots-transaction-semantics** |
+| Impersonator (EVM/Solana dApp connect as any address, dev/testing) | **impersonator-dapp-devtools** |
 
 When in doubt, load **on-chain-investigator-agent** or this index.
 
@@ -51,6 +52,7 @@ When in doubt, load **on-chain-investigator-agent** or this index.
 | **blockchain-analytics-operations** | Analytics platforms, AML/forensic **use cases**, tracers/visualizers as product layers |
 | **blockchain-spider-toolkit** | [BlockchainSpider](https://github.com/wuzhy1ng/BlockchainSpider) — Python/Scrapy **dataset** collection (EVM/Solana blocks/txs, transfer subgraphs); not web crawling |
 | **mots-transaction-semantics** | [MoTS](https://github.com/wuzhy1ng/MoTS) — **KYT** / transaction **semantic** vectors & labels (research); upstream notes merge into BlockchainSpider |
+| **impersonator-dapp-devtools** | [Impersonator](https://github.com/impersonator-eth/impersonator) / [Solana](https://github.com/impersonator-eth/impersonator-solana) — WalletConnect-style **address presentation** for dApp **UI testing** (no key custody; ethics-heavy) |
 | **on-chain-research-tokenomics** | Holdings/flows/TVL/whales, **tokenomics** (supply, vesting, utility) |
 | **crypto-investigation-compliance** | Crime taxonomy, **ethical** OSINT + on-chain workflow, reporting posture |
 | **phalcon-compliance-documentation** | **Phalcon Compliance** public **documentation** portal — compliance investigation / monitoring product docs (read live site for features) |

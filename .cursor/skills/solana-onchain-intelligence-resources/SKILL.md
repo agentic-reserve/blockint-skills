@@ -1,6 +1,6 @@
 ---
 name: solana-onchain-intelligence-resources
-description: Companion to blockint-skills Solana work—official doc indexes and stacks for RPC/indexers, sanctions and address intel MCP, web research, agent payments, graph UIs, Solana Foundation dev skills, Solana Policy Institute (policy/regulatory education), and optional open-source Scrapy collection (BlockchainSpider). Use when the user needs pointers to Helius, Range AI, Tavily, PayAI x402, React Flow, Solana.com skills, or SPI alongside on-chain forensics—not as a substitute for reading current provider docs, legal counsel, or API keys.
+description: Companion to blockint-skills Solana work—official doc indexes and stacks for RPC/indexers, sanctions and address intel MCP, web research, agent payments, graph UIs, Solana Foundation dev skills, Solana Policy Institute (policy/regulatory education), optional open-source Scrapy collection (BlockchainSpider), and Impersonator Solana (dApp dev/testing). Use when the user needs pointers to Helius, Range AI, Tavily, PayAI x402, React Flow, Solana.com skills, or SPI alongside on-chain forensics—not as a substitute for reading current provider docs, legal counsel, or API keys.
 ---
 
 # Solana on-chain intelligence — external resources
@@ -21,6 +21,12 @@ Use this skill together with **solana-tracing-specialist**, **solana-clustering-
 
 - **Repository:** [github.com/wuzhy1ng/BlockchainSpider](https://github.com/wuzhy1ng/BlockchainSpider) — Python/Scrapy spiders for **block/transaction** ingestion and related flows; use **your own** JSON-RPC URLs and respect provider **ToS** / **rate limits**.
 - **In bundle:** **blockchain-spider-toolkit** — safe command patterns and cross-links. Not a replacement for Helius or Range when you need **managed** APIs or **risk** products.
+
+## Impersonator Solana (dApp dev / UI testing)
+
+- **Repository:** [impersonator-eth/impersonator-solana](https://github.com/impersonator-eth/impersonator-solana) — connect to Solana dApps while presenting an **arbitrary address** for **read-only**-style exploration (no keys for that address—confirm behavior in upstream README).
+- **Public site (per upstream):** [solana.impersonator.xyz](https://solana.impersonator.xyz)
+- **In bundle:** **impersonator-dapp-devtools** — pairs with EVM [Impersonator](https://github.com/impersonator-eth/impersonator); **not** for phishing, fraud, or ToS abuse.
 
 ## Range AI (MCP blockchain intelligence)
 
@@ -61,6 +67,7 @@ Use this skill together with **solana-tracing-specialist**, **solana-clustering-
 | Web corroboration | **bellingcat-investigation-toolkit** | Tavily |
 | Program security | **solana-defi-vulnerability-analyst-agent** | Solana Foundation skills, Helius/Surfpool for testing |
 | Graph UI | — | React Flow |
+| dApp UI as arbitrary address (dev/testing, ethics) | **impersonator-dapp-devtools** | [impersonator-solana](https://github.com/impersonator-eth/impersonator-solana) README |
 | Solana policy / regulatory context (education) | **crypto-investigation-compliance** | Solana Policy Institute site |
 
 ## Ethical guardrails
@@ -69,4 +76,4 @@ Use this skill together with **solana-tracing-specialist**, **solana-clustering-
 - Range and sanctions-style tools support compliance workflows; they do not replace legal conclusions.
 - PayAI and x402 involve real payments; the user must configure keys and networks.
 
-**Goal:** give one place to tie Solana on-chain intel work in blockint to the documentation indexes and products teams already use: Helius, Range, Tavily, PayAI, React Flow, Solana Foundation, and the Solana Policy Institute for policy-facing context.
+**Goal:** give one place to tie Solana on-chain intel work in blockint to the documentation indexes and products teams already use: Helius, Range, Tavily, PayAI, React Flow, Solana Foundation, Impersonator Solana (where relevant for dev/testing), and the Solana Policy Institute for policy-facing context.
