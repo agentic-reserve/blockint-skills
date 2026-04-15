@@ -1,0 +1,68 @@
+---
+name: blockchain-intelligence-playbook
+description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, crypto market mechanics, OSINT (Bellingcat toolkit), DeFi/MEV/rug skills, and Katana web crawling. Use when the task spans multiple topics or the user needs help picking which named skill to load.
+---
+
+# Blockchain intelligence — skill index
+
+This repository splits topics into **focused skills** (load the specific skill when the task is narrow). Shared rules: **educational** patterns only; **no** sanctions evasion, harassment, or non-consensual doxxing; **not** legal/investment advice.
+
+## Choosing a skill (quick map)
+
+| If the user is asking about… | Start here |
+|------------------------------|------------|
+| Crime types, ethics, reporting, CEX/stablecoin limits | **crypto-investigation-compliance** |
+| General OSINT tool discovery (non-chain) | **bellingcat-investigation-toolkit** |
+| End-to-end on-chain forensics persona | **on-chain-investigator-agent** |
+| Solana txs, ATAs, SPL | **solana-tracing-specialist** |
+| Solana entity clustering / Jito / launchpads | **solana-clustering-advanced** |
+| Cross-chain bridges and unified graphs | **cross-chain-clustering-techniques-agent** |
+| Broad DeFi audit + rug/governance | **defi-security-audit-agent** |
+| EVM Solidity contracts (Ethereum/L2) | **evm-solidity-defi-triage-agent** |
+| Solana programs (Anchor, PDAs, CPIs) | **solana-defi-vulnerability-analyst-agent** |
+| Honeypot / sell restrictions | **honeypot-detection-techniques** |
+| Launch rug red flags | **rug-pull-pattern-detection-agent** |
+| Flash-loan incidents | **flash-loan-exploit-investigator-agent** |
+| Sandwich MEV post-mortems | **sandwich-attack-investigator-agent** |
+| MEV infrastructure / searchers | **mev-bot-infrastructure-analysis-agent** |
+| MEV + rug overlap hypotheses | **mev-bot-rug-coordination-investigator-agent** |
+| Web crawling | **katana-web-crawling** |
+
+When in doubt, load **on-chain-investigator-agent** or this index.
+
+## Skills in this bundle
+
+| Skill | Use when |
+|--------|-----------|
+| **blockchain-intelligence-playbook** | This index — routing when multiple domains apply |
+| **blockchain-intelligence-fundamentals** | What BI is, tool categories (explorers, tracers, etc.), payment rails vs crypto rails |
+| **address-clustering-attribution** | **Wallet clustering** (UTXO CIH, EVM deposit sweeps), entities/labels/tags, peel/taint concepts, attribution limits |
+| **cross-chain-clustering-techniques-agent** | **Multi-chain** clustering: bridges, wrapped assets, unified graphs, timing/behavior, confidence scoring |
+| **blockchain-analytics-operations** | Analytics platforms, AML/forensic **use cases**, tracers/visualizers as product layers |
+| **on-chain-research-tokenomics** | Holdings/flows/TVL/whales, **tokenomics** (supply, vesting, utility) |
+| **crypto-investigation-compliance** | Crime taxonomy, **ethical** OSINT + on-chain workflow, reporting posture |
+| **bellingcat-investigation-toolkit** | Bellingcat OSINT toolkit: GitBook + GitHub catalog for general investigation tool discovery |
+| **crypto-market-structures** | Max pain, covered-call ETFs, arbitrage, bull/bear **flags** (non-prescriptive) |
+| **on-chain-investigator-agent** | **End-to-end** forensic investigator persona: tracing, contracts, scam heuristics, evidence reports, ethics |
+| **solana-tracing-specialist** | **Solana-only** forensics: ATAs, SPL flows, RPC/indexer patterns, Jito/DEX inner ix, evidence packs |
+| **solana-clustering-advanced** | **Solana** entity clustering: graphs, Jito/launchpad heuristics, PDAs, ML validation, confidence scoring |
+| **solana-clustering-case-study-agent** | **Solana** clustering → **case studies**: narrative, visuals, CSV/query exports, thread or long-form |
+| **defi-security-audit-agent** | **DeFi** security / rug-risk triage: contracts, liquidity, governance, bridges, severity reports from public data |
+| **evm-solidity-defi-triage-agent** | EVM Solidity DeFi triage: proxies, oracles, reentrancy, access control (Ethereum / L2) |
+| **honeypot-detection-techniques** | **Honeypot**-style **risk**: EVM/SPL patterns, static review, fork sim, observational heuristics |
+| **rug-pull-pattern-detection-agent** | **Launch** rug-risk: liquidity locks/removal, dev/sniper clusters, contract authorities, tiered scores |
+| **mev-bot-rug-coordination-investigator-agent** | **MEV** + rug overlap: bundle/block co-occurrence, timing, joint flows, confidence-scored hypotheses |
+| **flash-loan-exploit-investigator-agent** | **Flash-loan** / atomic **exploit** post-mortems (EVM + Solana): traces, impact, evidence packs, mitigations |
+| **sandwich-attack-investigator-agent** | **Sandwich** / DEX **MEV** post-mortems: same-block or bundle ordering, victim vs searcher metrics, mitigations |
+| **mev-bot-infrastructure-analysis-agent** | **MEV** **infrastructure**: searchers, bundles/builders/relays, strategies, profit paths, centralization metrics (public data) |
+| **solana-defi-vulnerability-analyst-agent** | **Solana** DeFi **program** risks: Anchor/PDAs/CPIs, oracles, pools, SPL, safe repro / severity reporting |
+| **katana-web-crawling** | **ProjectDiscovery Katana** install, crawl vs headless, scope, rate limits, pipelines |
+
+## Quality checklist (all domains)
+
+- Separate **fact** vs **inference** vs **hypothesis**  
+- Cite **sources** for claims about entities or legal outcomes  
+- Prefer **primary** docs for ETFs, sanctions, and filings  
+- For **clustering/attribution**, assume **probabilistic** outputs  
+
+When one subdomain clearly dominates the request, prefer loading that **named** skill directly instead of this index.
