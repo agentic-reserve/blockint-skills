@@ -32,3 +32,7 @@ Graph **visualizers**, **tracers** (directional / taint-style), **alerting dashb
 ## Limits
 
 Heuristics **misfire**; privacy tech and custodial hops obscure flows. Analytics is **decision support**, not infallible truth.
+
+## See also
+
+- **blockchain-spider-toolkit** — [BlockchainSpider](https://github.com/wuzhy1ng/BlockchainSpider) (open-source Scrapy-based) for **building** raw or structured on-chain **datasets** (EVM/Solana) when you need offline pipelines; pair with this skill for **interpretation** and **limits** of analytics.

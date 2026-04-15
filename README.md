@@ -11,6 +11,7 @@ Skills live under `.cursor/skills/`. The **`blockchain-intelligence-playbook`** 
 | `address-clustering-attribution` | **Clustering** heuristics, entity/label/tag, attribution |
 | `cross-chain-clustering-techniques-agent` | Multi-chain clustering: bridges, wrapped assets, unified graphs, cross-chain heuristics |
 | `blockchain-analytics-operations` | Analytics platforms, compliance/forensic use cases |
+| `blockchain-spider-toolkit` | [BlockchainSpider](https://github.com/wuzhy1ng/BlockchainSpider) — Python/Scrapy on-chain **data collection** (EVM/Solana, subgraphs) |
 | `phalcon-compliance-documentation` | Pointer to **Phalcon Compliance** public docs portal (compliance investigation / monitoring product docs) |
 | `risk-exposure-screening-concepts` | Risk **indicator** taxonomies, exposure value/%, address vs tx screening templates (educational) |
 | `behavioral-risk-screening-concepts` | Large-value / high-frequency / transit behavior, rapid-transit tx rules (educational) |

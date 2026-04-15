@@ -1,6 +1,6 @@
 ---
 name: solana-onchain-intelligence-resources
-description: Companion to blockint-skills Solana work—official doc indexes and stacks for RPC/indexers, sanctions and address intel MCP, web research, agent payments, graph UIs, Solana Foundation dev skills, and Solana Policy Institute (policy/regulatory education). Use when the user needs pointers to Helius, Range AI, Tavily, PayAI x402, React Flow, Solana.com skills, or SPI alongside on-chain forensics—not as a substitute for reading current provider docs, legal counsel, or API keys.
+description: Companion to blockint-skills Solana work—official doc indexes and stacks for RPC/indexers, sanctions and address intel MCP, web research, agent payments, graph UIs, Solana Foundation dev skills, Solana Policy Institute (policy/regulatory education), and optional open-source Scrapy collection (BlockchainSpider). Use when the user needs pointers to Helius, Range AI, Tavily, PayAI x402, React Flow, Solana.com skills, or SPI alongside on-chain forensics—not as a substitute for reading current provider docs, legal counsel, or API keys.
 ---
 
 # Solana on-chain intelligence — external resources
@@ -16,6 +16,11 @@ Use this skill together with **solana-tracing-specialist**, **solana-clustering-
 
 - **Documentation index:** [helius.dev/llms.txt](https://www.helius.dev/llms.txt) — discover blog and guides on RPC, DAS, webhooks, compression, MEV, Surfpool, congestion, and tooling.
 - Typical investigation uses: enhanced RPC and history, parsed transactions, webhooks, Geyser-style streaming. Always confirm methods against current Helius docs for your plan and tier.
+
+## BlockchainSpider (open-source dataset collection)
+
+- **Repository:** [github.com/wuzhy1ng/BlockchainSpider](https://github.com/wuzhy1ng/BlockchainSpider) — Python/Scrapy spiders for **block/transaction** ingestion and related flows; use **your own** JSON-RPC URLs and respect provider **ToS** / **rate limits**.
+- **In bundle:** **blockchain-spider-toolkit** — safe command patterns and cross-links. Not a replacement for Helius or Range when you need **managed** APIs or **risk** products.
 
 ## Range AI (MCP blockchain intelligence)
 
@@ -50,6 +55,7 @@ Use this skill together with **solana-tracing-specialist**, **solana-clustering-
 | Task | blockint skill | Often paired with |
 |------|----------------|-------------------|
 | Parse Solana txs, ATAs | **solana-tracing-specialist** | Helius (RPC/indexer docs) |
+| Bulk slot/tx CSV pipelines (self-hosted) | **blockchain-spider-toolkit** | Authorized JSON-RPC provider |
 | Cluster addresses, Jito | **solana-clustering-advanced** | Helius, on-chain data |
 | Risk/sanctions screen | **crypto-investigation-compliance** | Range MCP (**range-ai-investigation-playbook**) |
 | Web corroboration | **bellingcat-investigation-toolkit** | Tavily |
