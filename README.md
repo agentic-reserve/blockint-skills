@@ -15,6 +15,7 @@ Skills live under `.cursor/skills/`. The **`blockchain-intelligence-playbook`** 
 | `risk-exposure-screening-concepts` | Risk **indicator** taxonomies, exposure value/%, address vs tx screening templates (educational) |
 | `behavioral-risk-screening-concepts` | Large-value / high-frequency / transit behavior, rapid-transit tx rules (educational) |
 | `address-screening-workflow-concepts` | Tags/markers, bulk CSV import, address list/detail, blacklist/whitelist patterns (educational) |
+| `transaction-screening-workflow-concepts` | Tx/transfer screening, deposit vs withdrawal, CSV, list/detail, STR-style exports (educational) |
 | `on-chain-research-tokenomics` | On-chain metrics, tokenomics |
 | `crypto-investigation-compliance` | Crime map, ethical investigation workflow |
 | `bellingcat-investigation-toolkit` | Bellingcat OSINT toolkit pointer (GitBook + GitHub catalog) |

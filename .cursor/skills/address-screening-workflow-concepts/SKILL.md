@@ -96,4 +96,8 @@ Removing an address from the **inventory** typically **expires** or **closes** *
 - **Do not** assist with **evading** sanctions, **mis-labeling** peers, or **gaming** whitelist policies.  
 - Prefer **primary** legal and sanctions sources for **regulatory** obligations; UI risk tiers are **heuristics**.
 
+## See also
+
+- **transaction-screening-workflow-concepts** — tx hash / transfer-level screening, **deposit** vs **withdrawal**, STR-style exports.
+
 **Goal:** a portable mental model of **address screening** UIs and **list** semantics aligned with common compliance products, without binding a specific **vendor** implementation.
