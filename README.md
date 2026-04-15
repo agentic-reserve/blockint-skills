@@ -45,6 +45,7 @@ Skills live under `.cursor/skills/`. The **`blockchain-intelligence-playbook`** 
 | `solana-defi-vulnerability-analyst-agent` | Solana DeFi program risks: Anchor/PDAs/CPIs, oracles, pools, SPL, historical tx reconstruction |
 | `sealevel-attacks-solana` | [coral-xyz/sealevel-attacks](https://github.com/coral-xyz/sealevel-attacks) — **Anchor** examples of Solana exploit patterns & mitigations (educational) |
 | `neodyme-solana-security-workshop` | [Neodyme Solana Security Workshop](https://workshop.neodyme.io/) — hands-on **levels** & PoC framework (intentionally vulnerable code; legal notice on site) |
+| `osec-solana-auditor-introduction` | [Osec blog](https://osec.io/blog/2022-03-14-solana-security-intro) — **Solana: An Auditor’s Introduction** (runtime, accounts, BPF; Mar 2022; verify current docs) |
 | `armaniferrante-x-status-solana-reference` | [@armaniferrante X post](https://x.com/armaniferrante/status/1411589629384355840) — **citation bookmark** (open URL for verbatim text) |
 | `katana-web-crawling` | Crawling / spidering with Katana |
 
