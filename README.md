@@ -15,6 +15,7 @@ Skills live under `.cursor/skills/`. The **`blockchain-intelligence-playbook`** 
 | `mots-transaction-semantics` | [MoTS](https://github.com/wuzhy1ng/MoTS) — legacy **KYT / transaction semantics** Scrapy research code (merged upstream note → prefer BlockchainSpider for current work) |
 | `impersonator-dapp-devtools` | [Impersonator](https://github.com/impersonator-eth/impersonator) / [Impersonator Solana](https://github.com/impersonator-eth/impersonator-solana) — dApp **read-only address** UX via WalletConnect (dev/testing; strong ethics guardrails) |
 | `phalcon-compliance-documentation` | Pointer to **Phalcon Compliance** public docs portal (compliance investigation / monitoring product docs) |
+| `chainalysis-sanctions-screening` | **Chainalysis** public **Sanctions API** + EVM **oracle** router (OFAC SDN–oriented checks; verify live docs; see `Chainalysis.md` excerpt) |
 | `risk-exposure-screening-concepts` | Risk **indicator** taxonomies, exposure value/%, address vs tx screening templates (educational) |
 | `behavioral-risk-screening-concepts` | Large-value / high-frequency / transit behavior, rapid-transit tx rules (educational) |
 | `address-screening-workflow-concepts` | Tags/markers, bulk CSV import, address list/detail, blacklist/whitelist patterns (educational) |
