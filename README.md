@@ -18,6 +18,7 @@ Skills live under `.cursor/skills/`. The **`blockchain-intelligence-playbook`** 
 | `chainalysis-sanctions-screening` | **Chainalysis** public **Sanctions API** + EVM **oracle** router (OFAC SDN–oriented checks; verify live docs; see `Chainalysis.md` excerpt) |
 | `fatf-glossary-reference` | [FATF Glossary](https://www.fatf-gafi.org/en/pages/fatf-glossary.html) — official **AML/CFT** terminology (educational; not legal advice) |
 | `arkham-leading-crypto-analysis-tools` | [Arkham research](https://info.arkm.com/research/leading-crypto-analysis-tools-for-traders-investors) — survey of **fundamental / technical / on-chain** tool landscape for traders (not investment advice) |
+| `cmichel-smart-contract-auditor-guide` | [cmichel.io](https://cmichel.io/how-to-become-a-smart-contract-auditor/) — **EVM** smart contract **auditor** learning path & FAQ (educational; article dated 2021) |
 | `risk-exposure-screening-concepts` | Risk **indicator** taxonomies, exposure value/%, address vs tx screening templates (educational) |
 | `behavioral-risk-screening-concepts` | Large-value / high-frequency / transit behavior, rapid-transit tx rules (educational) |
 | `address-screening-workflow-concepts` | Tags/markers, bulk CSV import, address list/detail, blacklist/whitelist patterns (educational) |
