@@ -48,6 +48,7 @@ Skills live under `.cursor/skills/`. The **`blockchain-intelligence-playbook`** 
 | `osec-solana-auditor-introduction` | [Osec blog](https://osec.io/blog/2022-03-14-solana-security-intro) — **Solana: An Auditor’s Introduction** (runtime, accounts, BPF; Mar 2022; verify current docs) |
 | `armaniferrante-x-status-solana-reference` | [@armaniferrante X post](https://x.com/armaniferrante/status/1411589629384355840) — **citation bookmark** (open URL for verbatim text) |
 | `katana-web-crawling` | Crawling / spidering with Katana |
+| `lcamtuf-afl-documentation` | [lcamtuf AFL](https://lcamtuf.coredump.cx/afl/) — **American Fuzzy Lop** classic docs (coverage-guided fuzzing for C/C++; see **AFL++** for maintained fork) |
 
 Copy `.cursor/skills/` into a project or symlink for global use, for example:
 

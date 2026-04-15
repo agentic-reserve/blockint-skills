@@ -1,6 +1,6 @@
 ---
 name: blockchain-intelligence-playbook
-description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, Phalcon Compliance documentation pointer, Chainalysis public Sanctions API/oracle router, FATF official AML/CFT glossary, Arkham Intel research article on leading crypto analysis tools for traders, Christoph Michel cmichel.io guide on becoming an EVM smart contract auditor, risk exposure, behavioral risk, address and transaction screening workflow concepts, Range AI investigation playbook (MCP), crypto market mechanics, OSINT (Bellingcat toolkit), Solana external stacks (Helius, Range MCP, Tavily, PayAI, React Flow, Solana Policy Institute), DeFi/MEV/rug skills, privileged-access mitigation lessons (Chainalysis Drift case study), coral-xyz sealevel-attacks Solana security examples, Neodyme Solana Security Workshop (workshop.neodyme.io), Osec (osec.io) Solana auditor introduction blog post, canonical X post citation for @armaniferrante status 1411589629384355840, BlockchainSpider open-source data collection, MoTS (Know Your Transactions / transaction semantics research repo), Impersonator dApp devtools (EVM + Solana read-only address presentation), and Katana web crawling. Use when the task spans multiple topics or the user needs help picking which named skill to load.
+description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, Phalcon Compliance documentation pointer, Chainalysis public Sanctions API/oracle router, FATF official AML/CFT glossary, Arkham Intel research article on leading crypto analysis tools for traders, Christoph Michel cmichel.io guide on becoming an EVM smart contract auditor, risk exposure, behavioral risk, address and transaction screening workflow concepts, Range AI investigation playbook (MCP), crypto market mechanics, OSINT (Bellingcat toolkit), Solana external stacks (Helius, Range MCP, Tavily, PayAI, React Flow, Solana Policy Institute), DeFi/MEV/rug skills, privileged-access mitigation lessons (Chainalysis Drift case study), coral-xyz sealevel-attacks Solana security examples, Neodyme Solana Security Workshop (workshop.neodyme.io), Osec (osec.io) Solana auditor introduction blog post, canonical X post citation for @armaniferrante status 1411589629384355840, BlockchainSpider open-source data collection, MoTS (Know Your Transactions / transaction semantics research repo), Impersonator dApp devtools (EVM + Solana read-only address presentation), Katana web crawling, and lcamtuf American Fuzzy Lop (AFL) classic documentation (lcamtuf.coredump.cx/afl). Use when the task spans multiple topics or the user needs help picking which named skill to load.
 ---
 
 # Blockchain intelligence — skill index
@@ -43,6 +43,7 @@ This repository splits topics into **focused skills** (load the specific skill w
 | MEV infrastructure / searchers | **mev-bot-infrastructure-analysis-agent** |
 | MEV + rug overlap hypotheses | **mev-bot-rug-coordination-investigator-agent** |
 | Web crawling | **katana-web-crawling** |
+| Classic **AFL** / **lcamtuf** fuzzing docs (C/C++ coverage-guided) | **lcamtuf-afl-documentation** |
 | Scrapy/Python on-chain datasets, transfer subgraphs (BlockchainSpider) | **blockchain-spider-toolkit** |
 | MoTS / KYT transaction semantics, WWW 2023 paper reproduction | **mots-transaction-semantics** |
 | Impersonator (EVM/Solana dApp connect as any address, dev/testing) | **impersonator-dapp-devtools** |
@@ -95,6 +96,7 @@ When in doubt, load **on-chain-investigator-agent** or this index.
 | **osec-solana-auditor-introduction** | [Osec blog](https://osec.io/blog/2022-03-14-solana-security-intro) — **auditor**-oriented **runtime** intro (BPF, accounts, System Program; 2022; verify docs) |
 | **armaniferrante-x-status-solana-reference** | [@armaniferrante](https://x.com/armaniferrante/status/1411589629384355840) **X post** bookmark — open URL for **verbatim** text; not a spec |
 | **katana-web-crawling** | **ProjectDiscovery Katana** install, crawl vs headless, scope, rate limits, pipelines |
+| **lcamtuf-afl-documentation** | [lcamtuf AFL](https://lcamtuf.coredump.cx/afl/) — **American Fuzzy Lop** classic **coverage-guided** fuzzing docs (C/C++); compare **AFL++** for current fork tooling |
 
 ## Quality checklist (all domains)
 
