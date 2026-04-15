@@ -62,4 +62,8 @@ Exact **spider names** and **arguments** change with releases—always copy from
 - **Do not** store or share **API keys**, **customer** identifiers, or **non-public** investigation exports in **public** repos.  
 - **Outputs** are **raw** or **heuristic**—validate **critical** facts against **primary** chain data.
 
+## Related research codebase
+
+- **mots-transaction-semantics** — [MoTS](https://github.com/wuzhy1ng/MoTS) (WWW 2023 “Know Your Transactions”); upstream notes **MoTS merged into BlockchainSpider**—use MoTS skill for **legacy** spider names (`blocks.eth`, `blocks.semantic.eth`, `labels.action`) and the bundled PDF.
+
 **Goal:** a stable pointer and **safe** usage framing for [BlockchainSpider](https://github.com/wuzhy1ng/BlockchainSpider) inside blockint workflows.

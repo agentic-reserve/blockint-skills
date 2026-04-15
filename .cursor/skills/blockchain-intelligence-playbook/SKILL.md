@@ -1,6 +1,6 @@
 ---
 name: blockchain-intelligence-playbook
-description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, Phalcon Compliance documentation pointer, risk exposure, behavioral risk, address and transaction screening workflow concepts, Range AI investigation playbook (MCP), crypto market mechanics, OSINT (Bellingcat toolkit), Solana external stacks (Helius, Range MCP, Tavily, PayAI, React Flow, Solana Policy Institute), DeFi/MEV/rug skills, privileged-access mitigation lessons (Chainalysis Drift case study), BlockchainSpider open-source data collection, and Katana web crawling. Use when the task spans multiple topics or the user needs help picking which named skill to load.
+description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, Phalcon Compliance documentation pointer, risk exposure, behavioral risk, address and transaction screening workflow concepts, Range AI investigation playbook (MCP), crypto market mechanics, OSINT (Bellingcat toolkit), Solana external stacks (Helius, Range MCP, Tavily, PayAI, React Flow, Solana Policy Institute), DeFi/MEV/rug skills, privileged-access mitigation lessons (Chainalysis Drift case study), BlockchainSpider open-source data collection, MoTS (Know Your Transactions / transaction semantics research repo), and Katana web crawling. Use when the task spans multiple topics or the user needs help picking which named skill to load.
 ---
 
 # Blockchain intelligence — skill index
@@ -36,6 +36,7 @@ This repository splits topics into **focused skills** (load the specific skill w
 | MEV + rug overlap hypotheses | **mev-bot-rug-coordination-investigator-agent** |
 | Web crawling | **katana-web-crawling** |
 | Scrapy/Python on-chain datasets, transfer subgraphs (BlockchainSpider) | **blockchain-spider-toolkit** |
+| MoTS / KYT transaction semantics, WWW 2023 paper reproduction | **mots-transaction-semantics** |
 
 When in doubt, load **on-chain-investigator-agent** or this index.
 
@@ -49,6 +50,7 @@ When in doubt, load **on-chain-investigator-agent** or this index.
 | **cross-chain-clustering-techniques-agent** | **Multi-chain** clustering: bridges, wrapped assets, unified graphs, timing/behavior, confidence scoring |
 | **blockchain-analytics-operations** | Analytics platforms, AML/forensic **use cases**, tracers/visualizers as product layers |
 | **blockchain-spider-toolkit** | [BlockchainSpider](https://github.com/wuzhy1ng/BlockchainSpider) — Python/Scrapy **dataset** collection (EVM/Solana blocks/txs, transfer subgraphs); not web crawling |
+| **mots-transaction-semantics** | [MoTS](https://github.com/wuzhy1ng/MoTS) — **KYT** / transaction **semantic** vectors & labels (research); upstream notes merge into BlockchainSpider |
 | **on-chain-research-tokenomics** | Holdings/flows/TVL/whales, **tokenomics** (supply, vesting, utility) |
 | **crypto-investigation-compliance** | Crime taxonomy, **ethical** OSINT + on-chain workflow, reporting posture |
 | **phalcon-compliance-documentation** | **Phalcon Compliance** public **documentation** portal — compliance investigation / monitoring product docs (read live site for features) |

@@ -12,6 +12,7 @@ Skills live under `.cursor/skills/`. The **`blockchain-intelligence-playbook`** 
 | `cross-chain-clustering-techniques-agent` | Multi-chain clustering: bridges, wrapped assets, unified graphs, cross-chain heuristics |
 | `blockchain-analytics-operations` | Analytics platforms, compliance/forensic use cases |
 | `blockchain-spider-toolkit` | [BlockchainSpider](https://github.com/wuzhy1ng/BlockchainSpider) — Python/Scrapy on-chain **data collection** (EVM/Solana, subgraphs) |
+| `mots-transaction-semantics` | [MoTS](https://github.com/wuzhy1ng/MoTS) — legacy **KYT / transaction semantics** Scrapy research code (merged upstream note → prefer BlockchainSpider for current work) |
 | `phalcon-compliance-documentation` | Pointer to **Phalcon Compliance** public docs portal (compliance investigation / monitoring product docs) |
 | `risk-exposure-screening-concepts` | Risk **indicator** taxonomies, exposure value/%, address vs tx screening templates (educational) |
 | `behavioral-risk-screening-concepts` | Large-value / high-frequency / transit behavior, rapid-transit tx rules (educational) |
