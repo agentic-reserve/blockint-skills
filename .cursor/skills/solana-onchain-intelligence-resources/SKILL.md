@@ -1,6 +1,6 @@
 ---
 name: solana-onchain-intelligence-resources
-description: Companion to blockint-skills Solana work—official doc indexes and stacks for RPC/indexers, sanctions and address intel MCP, web research, agent payments, graph UIs, Solana Foundation dev skills, Solana Policy Institute (policy/regulatory education), optional open-source Scrapy collection (BlockchainSpider), Impersonator Solana (dApp dev/testing), and coral-xyz sealevel-attacks (security pattern examples). Use when the user needs pointers to Helius, Range AI, Tavily, PayAI x402, React Flow, Solana.com skills, or SPI alongside on-chain forensics—not as a substitute for reading current provider docs, legal counsel, or API keys.
+description: Companion to blockint-skills Solana work—official doc indexes and stacks for RPC/indexers, sanctions and address intel MCP, web research, agent payments, graph UIs, Solana Foundation dev skills, Solana Policy Institute (policy/regulatory education), optional open-source Scrapy collection (BlockchainSpider), Impersonator Solana (dApp dev/testing), coral-xyz sealevel-attacks (security pattern examples), and Neodyme Solana Security Workshop (workshop.neodyme.io). Use when the user needs pointers to Helius, Range AI, Tavily, PayAI x402, React Flow, Solana.com skills, or SPI alongside on-chain forensics—not as a substitute for reading current provider docs, legal counsel, or API keys.
 ---
 
 # Solana on-chain intelligence — external resources
@@ -16,6 +16,11 @@ Use this skill together with **solana-tracing-specialist**, **solana-clustering-
 
 - **Repository:** [coral-xyz/sealevel-attacks](https://github.com/coral-xyz/sealevel-attacks) — minimal **Anchor** programs demonstrating Solana-specific vulnerability patterns and fixes (defensive / learning use).
 - **In bundle:** **sealevel-attacks-solana** — ethics and pairing with audit workflows.
+
+## Neodyme Solana Security Workshop
+
+- **Site:** [workshop.neodyme.io](https://workshop.neodyme.io/) — structured **levels**, **PoC framework**, and intentionally **vulnerable** example programs for learning offensive/defensive Solana program security ([Neodyme](https://neodyme.io/)).
+- **In bundle:** **neodyme-solana-security-workshop** — follow the workshop **Legal Notice**; not for copying vulnerable code into production.
 
 ## Helius (Solana infrastructure and docs index)
 
@@ -70,7 +75,7 @@ Use this skill together with **solana-tracing-specialist**, **solana-clustering-
 | Cluster addresses, Jito | **solana-clustering-advanced** | Helius, on-chain data |
 | Risk/sanctions screen | **crypto-investigation-compliance** | Range MCP (**range-ai-investigation-playbook**) |
 | Web corroboration | **bellingcat-investigation-toolkit** | Tavily |
-| Program security | **solana-defi-vulnerability-analyst-agent** | Solana Foundation skills, **sealevel-attacks-solana**, Helius/Surfpool for testing |
+| Program security | **solana-defi-vulnerability-analyst-agent** | Solana Foundation skills, **sealevel-attacks-solana**, **neodyme-solana-security-workshop**, Helius/Surfpool for testing |
 | Graph UI | — | React Flow |
 | dApp UI as arbitrary address (dev/testing, ethics) | **impersonator-dapp-devtools** | [impersonator-solana](https://github.com/impersonator-eth/impersonator-solana) README |
 | Solana policy / regulatory context (education) | **crypto-investigation-compliance** | Solana Policy Institute site |
@@ -81,4 +86,4 @@ Use this skill together with **solana-tracing-specialist**, **solana-clustering-
 - Range and sanctions-style tools support compliance workflows; they do not replace legal conclusions.
 - PayAI and x402 involve real payments; the user must configure keys and networks.
 
-**Goal:** give one place to tie Solana on-chain intel work in blockint to the documentation indexes and products teams already use: Helius, Range, Tavily, PayAI, React Flow, Solana Foundation, Impersonator Solana (where relevant for dev/testing), and the Solana Policy Institute for policy-facing context.
+**Goal:** give one place to tie Solana on-chain intel work in blockint to the documentation indexes and products teams already use: Helius, Range, Tavily, PayAI, React Flow, Solana Foundation, Impersonator Solana (where relevant for dev/testing), Neodyme workshop / sealevel-attacks-style learning when relevant for program security, and the Solana Policy Institute for policy-facing context.

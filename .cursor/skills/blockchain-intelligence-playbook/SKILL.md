@@ -1,6 +1,6 @@
 ---
 name: blockchain-intelligence-playbook
-description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, Phalcon Compliance documentation pointer, Chainalysis public Sanctions API/oracle router, FATF official AML/CFT glossary, Arkham Intel research article on leading crypto analysis tools for traders, Christoph Michel cmichel.io guide on becoming an EVM smart contract auditor, risk exposure, behavioral risk, address and transaction screening workflow concepts, Range AI investigation playbook (MCP), crypto market mechanics, OSINT (Bellingcat toolkit), Solana external stacks (Helius, Range MCP, Tavily, PayAI, React Flow, Solana Policy Institute), DeFi/MEV/rug skills, privileged-access mitigation lessons (Chainalysis Drift case study), coral-xyz sealevel-attacks Solana security examples, canonical X post citation for @armaniferrante status 1411589629384355840, BlockchainSpider open-source data collection, MoTS (Know Your Transactions / transaction semantics research repo), Impersonator dApp devtools (EVM + Solana read-only address presentation), and Katana web crawling. Use when the task spans multiple topics or the user needs help picking which named skill to load.
+description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, Phalcon Compliance documentation pointer, Chainalysis public Sanctions API/oracle router, FATF official AML/CFT glossary, Arkham Intel research article on leading crypto analysis tools for traders, Christoph Michel cmichel.io guide on becoming an EVM smart contract auditor, risk exposure, behavioral risk, address and transaction screening workflow concepts, Range AI investigation playbook (MCP), crypto market mechanics, OSINT (Bellingcat toolkit), Solana external stacks (Helius, Range MCP, Tavily, PayAI, React Flow, Solana Policy Institute), DeFi/MEV/rug skills, privileged-access mitigation lessons (Chainalysis Drift case study), coral-xyz sealevel-attacks Solana security examples, Neodyme Solana Security Workshop (workshop.neodyme.io), canonical X post citation for @armaniferrante status 1411589629384355840, BlockchainSpider open-source data collection, MoTS (Know Your Transactions / transaction semantics research repo), Impersonator dApp devtools (EVM + Solana read-only address presentation), and Katana web crawling. Use when the task spans multiple topics or the user needs help picking which named skill to load.
 ---
 
 # Blockchain intelligence — skill index
@@ -33,6 +33,7 @@ This repository splits topics into **focused skills** (load the specific skill w
 | EVM Solidity contracts (Ethereum/L2) | **evm-solidity-defi-triage-agent** |
 | Solana programs (Anchor, PDAs, CPIs) | **solana-defi-vulnerability-analyst-agent** |
 | Sealevel Attacks repo (Solana exploit pattern examples) | **sealevel-attacks-solana** |
+| Neodyme Solana Security Workshop (workshop.neodyme.io) | **neodyme-solana-security-workshop** |
 | @armaniferrante X post `1411589629384355840` (primary-source citation) | **armaniferrante-x-status-solana-reference** |
 | Honeypot / sell restrictions | **honeypot-detection-techniques** |
 | Launch rug red flags | **rug-pull-pattern-detection-agent** |
@@ -89,6 +90,7 @@ When in doubt, load **on-chain-investigator-agent** or this index.
 | **mev-bot-infrastructure-analysis-agent** | **MEV** **infrastructure**: searchers, bundles/builders/relays, strategies, profit paths, centralization metrics (public data) |
 | **solana-defi-vulnerability-analyst-agent** | **Solana** DeFi **program** risks: Anchor/PDAs/CPIs, oracles, pools, SPL, safe repro / severity reporting |
 | **sealevel-attacks-solana** | [sealevel-attacks](https://github.com/coral-xyz/sealevel-attacks) — **Anchor**-based **exploit** / **mitigation** pattern examples for the Solana VM (educational; defensive use) |
+| **neodyme-solana-security-workshop** | [Neodyme workshop](https://workshop.neodyme.io/) — **Solana** security **levels**, PoC framework, vulnerable examples (follow site legal notice) |
 | **armaniferrante-x-status-solana-reference** | [@armaniferrante](https://x.com/armaniferrante/status/1411589629384355840) **X post** bookmark — open URL for **verbatim** text; not a spec |
 | **katana-web-crawling** | **ProjectDiscovery Katana** install, crawl vs headless, scope, rate limits, pipelines |
 
