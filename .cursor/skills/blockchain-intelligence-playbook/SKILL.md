@@ -1,6 +1,6 @@
 ---
 name: blockchain-intelligence-playbook
-description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, Phalcon Compliance documentation pointer, Chainalysis public Sanctions API/oracle router, FATF official AML/CFT glossary, risk exposure, behavioral risk, address and transaction screening workflow concepts, Range AI investigation playbook (MCP), crypto market mechanics, OSINT (Bellingcat toolkit), Solana external stacks (Helius, Range MCP, Tavily, PayAI, React Flow, Solana Policy Institute), DeFi/MEV/rug skills, privileged-access mitigation lessons (Chainalysis Drift case study), BlockchainSpider open-source data collection, MoTS (Know Your Transactions / transaction semantics research repo), Impersonator dApp devtools (EVM + Solana read-only address presentation), and Katana web crawling. Use when the task spans multiple topics or the user needs help picking which named skill to load.
+description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, Phalcon Compliance documentation pointer, Chainalysis public Sanctions API/oracle router, FATF official AML/CFT glossary, Arkham Intel research article on leading crypto analysis tools for traders, risk exposure, behavioral risk, address and transaction screening workflow concepts, Range AI investigation playbook (MCP), crypto market mechanics, OSINT (Bellingcat toolkit), Solana external stacks (Helius, Range MCP, Tavily, PayAI, React Flow, Solana Policy Institute), DeFi/MEV/rug skills, privileged-access mitigation lessons (Chainalysis Drift case study), BlockchainSpider open-source data collection, MoTS (Know Your Transactions / transaction semantics research repo), Impersonator dApp devtools (EVM + Solana read-only address presentation), and Katana web crawling. Use when the task spans multiple topics or the user needs help picking which named skill to load.
 ---
 
 # Blockchain intelligence — skill index
@@ -15,6 +15,7 @@ This repository splits topics into **focused skills** (load the specific skill w
 | Phalcon Compliance product documentation URL | **phalcon-compliance-documentation** |
 | Chainalysis Sanctions API / public oracle, `Chainalysis.md` | **chainalysis-sanctions-screening** |
 | FATF AML/CFT glossary terms (CDD, STR, PEP, etc.) | **fatf-glossary-reference** |
+| Arkham “leading crypto analysis tools” research / trader tool landscape | **arkham-leading-crypto-analysis-tools** |
 | Risk indicators, exposure %, address/tx screening templates | **risk-exposure-screening-concepts** |
 | Structuring-like frequency, large transfers, transit / rapid movement | **behavioral-risk-screening-concepts** |
 | Address tags/markers, CSV screening, blacklist vs whitelist UX | **address-screening-workflow-concepts** |
@@ -60,6 +61,7 @@ When in doubt, load **on-chain-investigator-agent** or this index.
 | **phalcon-compliance-documentation** | **Phalcon Compliance** public **documentation** portal — compliance investigation / monitoring product docs (read live site for features) |
 | **chainalysis-sanctions-screening** | **Chainalysis** public **Sanctions API** + EVM **oracle** — SDN-oriented address checks; live docs/Terms; optional repo **`Chainalysis.md`** excerpt |
 | **fatf-glossary-reference** | [FATF Glossary](https://www.fatf-gafi.org/en/pages/fatf-glossary.html) — official **AML/CFT** definitions; terminology alignment (not legal advice) |
+| **arkham-leading-crypto-analysis-tools** | [Arkham research](https://info.arkm.com/research/leading-crypto-analysis-tools-for-traders-investors) — **fundamental / technical / on-chain** tool survey for traders (not investment advice) |
 | **risk-exposure-screening-concepts** | **Risk exposure** vocabulary: indicator taxonomies, exposure value/%, address vs transaction templates (entity, interaction, blacklist) — educational |
 | **behavioral-risk-screening-concepts** | **Behavioral** patterns: large-value, high-frequency / structuring-like, transit addresses, rapid-transaction rules — educational |
 | **address-screening-workflow-concepts** | **Address** inventory: tags vs markers, CSV bulk import, list/detail pages, audit/alert views, blacklist/whitelist semantics — educational |
