@@ -21,6 +21,7 @@ Use this skill together with **solana-tracing-specialist**, **solana-clustering-
 
 - **Docs index:** [docs.range.org/llms.txt](https://docs.range.org/llms.txt) — browse Range AI pages.
 - **MCP endpoint:** `https://api.range.org/ai/mcp` — connect in MCP-compatible clients for address intel, risk and sanctions-oriented tools, and cross-chain pivots (per Range product scope). Requires a user Range API key where applicable.
+- **Investigation playbook (this bundle):** **range-ai-investigation-playbook** — step-by-step workflow (`get_address_risk`, `check_sanctions`, connections, transfers, funded-by, entities, cross-chain) and one-shot prompt template.
 
 ## Tavily (web search and research for OSINT)
 
@@ -50,7 +51,7 @@ Use this skill together with **solana-tracing-specialist**, **solana-clustering-
 |------|----------------|-------------------|
 | Parse Solana txs, ATAs | **solana-tracing-specialist** | Helius (RPC/indexer docs) |
 | Cluster addresses, Jito | **solana-clustering-advanced** | Helius, on-chain data |
-| Risk/sanctions screen | **crypto-investigation-compliance** | Range MCP (if connected) |
+| Risk/sanctions screen | **crypto-investigation-compliance** | Range MCP (**range-ai-investigation-playbook**) |
 | Web corroboration | **bellingcat-investigation-toolkit** | Tavily |
 | Program security | **solana-defi-vulnerability-analyst-agent** | Solana Foundation skills, Helius/Surfpool for testing |
 | Graph UI | — | React Flow |

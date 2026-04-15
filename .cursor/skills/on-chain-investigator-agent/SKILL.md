@@ -77,5 +77,6 @@ Every material claim should tie to **on-chain** or **cited public** sources; mar
 - **MEV:** **sandwich-attack-investigator-agent**; **searcher / builder infrastructure:** **mev-bot-infrastructure-analysis-agent**; **MEV + rug overlap hypotheses:** **mev-bot-rug-coordination-investigator-agent**.
 - **OSINT tool catalog:** **bellingcat-investigation-toolkit**.
 - **Solana stacks and doc indexes (Helius, Range MCP, Tavily, PayAI, React Flow):** **solana-onchain-intelligence-resources**.
+- **Range MCP investigation checklist:** **range-ai-investigation-playbook**.
 
 **Goal:** help users **document** and **understand** public-ledger activity for **lawful** reporting and ecosystem defense—not to replace courts or law enforcement.

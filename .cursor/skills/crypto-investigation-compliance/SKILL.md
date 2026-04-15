@@ -49,6 +49,7 @@ Chains attract misuse due to **pseudonymity**, **speed**, **cross-border** reach
 - **bellingcat-investigation-toolkit** — [Bellingcat’s OSINT tool catalog](https://bellingcat.gitbook.io/toolkit) (general open-source investigation tools; verify live links)  
 - **evm-solidity-defi-triage-agent** — EVM Solidity DeFi contract triage (complements chain tracing)  
 - **solana-onchain-intelligence-resources** — includes [Solana Policy Institute](https://www.solanapolicyinstitute.org/) for **public** policy and regulatory **education** on Solana (not legal advice); use for context separate from per-case facts  
+- **range-ai-investigation-playbook** — structured **Range MCP** investigation steps (risk, sanctions, flows, cross-chain) and prompt template; labels are **not** legal findings  
 - **phalcon-compliance-documentation** — canonical URL for **Phalcon Compliance** **public** documentation (product operator reference; not legal advice)  
 - **risk-exposure-screening-concepts** — risk **indicator** categories, exposure metrics, address vs transaction screening templates (commercial screening vocabulary; not a legal finding)  
 - **behavioral-risk-screening-concepts** — volume, velocity, transit-style **behavior** rules at address and transaction level (alerts are not proof of crime)  
