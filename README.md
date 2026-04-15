@@ -35,3 +35,19 @@ Skills live under `.cursor/skills/`. The **`blockchain-intelligence-playbook`** 
 Copy `.cursor/skills/` into a project or symlink for global use, for example:
 
 `ln -sf /path/to/blockint-skills/.cursor/skills ~/.cursor/skills`
+
+## Discovery on [skills.sh](https://skills.sh/)
+
+The [open agent skills ecosystem](https://www.npmjs.com/package/skills) discovers skills from public Git repositories. [skills.sh](https://skills.sh/) is the browseable directory; there is **no separate upload form**—visibility comes from **installing** skills with the CLI (telemetry drives the leaderboard). Keep this repo **public** and **up to date** on GitHub.
+
+**Install all skills from this repo:**
+
+`npx skills add agentic-reserve/blockint-skills`
+
+**List skill names without installing:**
+
+`npx skills add agentic-reserve/blockint-skills --list`
+
+**Install specific skills (example):**
+
+`npx skills add agentic-reserve/blockint-skills --skill blockchain-intelligence-playbook --skill crypto-investigation-compliance`
