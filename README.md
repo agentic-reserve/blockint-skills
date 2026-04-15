@@ -1,54 +1,56 @@
 # blockint-skills
 
-Cursor **Agent Skills** for blockchain intelligence, on-chain research, investigation ethics, market-structure concepts, and **[Katana](https://github.com/projectdiscovery/katana)** web crawling.
+Public **Cursor Agent Skills** for **blockchain intelligence**, on-chain research, **compliance / screening** concepts, **DeFi and MEV** investigation patterns, **Solana** resources, **OSINT** pointers, **[Katana](https://github.com/projectdiscovery/katana)** web crawling, and selected **security-research** references (e.g. classic **AFL** docs).
 
-Skills live under `.cursor/skills/`. The **`blockchain-intelligence-playbook`** skill is a short **index**; topical skills are split for clearer triggering:
+**Repository:** [github.com/agentic-reserve/blockint-skills](https://github.com/agentic-reserve/blockint-skills)
+
+Skills live under `.cursor/skills/`. The **`blockchain-intelligence-playbook`** skill is the **index** (routing + “choosing a skill”); the table below lists **43** skill directories (**1** index + **42** topical).
 
 | Directory | Topic |
 |-----------|--------|
-| `blockchain-intelligence-playbook` | **Index** — routes to other skills; “choosing a skill” guidance |
-| `blockchain-intelligence-fundamentals` | BI basics, tool types, payment rails |
 | `address-clustering-attribution` | **Clustering** heuristics, entity/label/tag, attribution |
-| `cross-chain-clustering-techniques-agent` | Multi-chain clustering: bridges, wrapped assets, unified graphs, cross-chain heuristics |
-| `blockchain-analytics-operations` | Analytics platforms, compliance/forensic use cases |
-| `blockchain-spider-toolkit` | [BlockchainSpider](https://github.com/wuzhy1ng/BlockchainSpider) — Python/Scrapy on-chain **data collection** (EVM/Solana, subgraphs) |
-| `mots-transaction-semantics` | [MoTS](https://github.com/wuzhy1ng/MoTS) — legacy **KYT / transaction semantics** Scrapy research code (merged upstream note → prefer BlockchainSpider for current work) |
-| `impersonator-dapp-devtools` | [Impersonator](https://github.com/impersonator-eth/impersonator) / [Impersonator Solana](https://github.com/impersonator-eth/impersonator-solana) — dApp **read-only address** UX via WalletConnect (dev/testing; strong ethics guardrails) |
-| `phalcon-compliance-documentation` | Pointer to **Phalcon Compliance** public docs portal (compliance investigation / monitoring product docs) |
-| `chainalysis-sanctions-screening` | **Chainalysis** public **Sanctions API** + EVM **oracle** router (OFAC SDN–oriented checks; verify live docs; see `Chainalysis.md` excerpt) |
-| `fatf-glossary-reference` | [FATF Glossary](https://www.fatf-gafi.org/en/pages/fatf-glossary.html) — official **AML/CFT** terminology (educational; not legal advice) |
-| `arkham-leading-crypto-analysis-tools` | [Arkham research](https://info.arkm.com/research/leading-crypto-analysis-tools-for-traders-investors) — survey of **fundamental / technical / on-chain** tool landscape for traders (not investment advice) |
-| `cmichel-smart-contract-auditor-guide` | [cmichel.io](https://cmichel.io/how-to-become-a-smart-contract-auditor/) — **EVM** smart contract **auditor** learning path & FAQ (educational; article dated 2021) |
-| `risk-exposure-screening-concepts` | Risk **indicator** taxonomies, exposure value/%, address vs tx screening templates (educational) |
-| `behavioral-risk-screening-concepts` | Large-value / high-frequency / transit behavior, rapid-transit tx rules (educational) |
 | `address-screening-workflow-concepts` | Tags/markers, bulk CSV import, address list/detail, blacklist/whitelist patterns (educational) |
-| `transaction-screening-workflow-concepts` | Tx/transfer screening, deposit vs withdrawal, CSV, list/detail, STR-style exports (educational) |
-| `on-chain-research-tokenomics` | On-chain metrics, tokenomics |
-| `crypto-investigation-compliance` | Crime map, ethical investigation workflow |
-| `bellingcat-investigation-toolkit` | Bellingcat OSINT toolkit pointer (GitBook + GitHub catalog) |
-| `crypto-market-structures` | Max pain, ETFs, arbitrage, TA flags (educational) |
-| `on-chain-investigator-agent` | On-chain forensics persona: tracing, contracts, scam patterns, evidence reports |
-| `solana-tracing-specialist` | Solana-focused tracing: ATAs, SPL, indexers, fund-flow graphs |
-| `solana-onchain-intelligence-resources` | Solana intel **resource router**: Helius, Range MCP, Tavily, PayAI x402, React Flow, Solana.com skills (`llms.txt` indexes), [Solana Policy Institute](https://www.solanapolicyinstitute.org/) (policy/education) |
-| `range-ai-investigation-playbook` | **Range AI** MCP investigation workflow (risk, sanctions, flows, cross-chain) + one-shot prompt |
-| `solana-clustering-advanced` | Advanced Solana clustering: graphs, bundles, launchpads, PDAs, ML |
-| `solana-clustering-case-study-agent` | Solana clustering → public case studies, threads, evidence packs, reproducible exports |
-| `defi-security-audit-agent` | DeFi audit/rug-risk triage: contracts, liquidity, governance, bridges, evidence reports |
-| `defi-admin-takeover-mitigation-lessons` | Privileged-access failures (e.g. [Drift hack](https://www.chainalysis.com/blog/lessons-from-the-drift-hack/)): signers, nonces, oracles, monitoring |
-| `evm-solidity-defi-triage-agent` | EVM Solidity DeFi triage: proxies, oracles, reentrancy, access control (Ethereum/L2) |
-| `honeypot-detection-techniques` | Honeypot-style token checks: EVM transfer gates, SPL/Token-2022, safe validation |
-| `rug-pull-pattern-detection-agent` | Launch rug-risk: LP/dev patterns, locks, coordinated exits, red-flag scoring (public data) |
-| `mev-bot-rug-coordination-investigator-agent` | MEV × rug hypotheses: bundle overlap, timing, joint flows, confidence-scored case studies |
-| `flash-loan-exploit-investigator-agent` | Flash-loan / atomic DeFi post-mortems: EVM + Solana traces, impact, mitigations, read-only sim |
-| `sandwich-attack-investigator-agent` | DEX sandwich MEV post-mortems: EVM + Solana bundles, slippage/profit estimates, evidence packs |
-| `mev-bot-infrastructure-analysis-agent` | MEV infrastructure: searchers, bundles/builders, strategy fingerprints, concentration, public data |
-| `solana-defi-vulnerability-analyst-agent` | Solana DeFi program risks: Anchor/PDAs/CPIs, oracles, pools, SPL, historical tx reconstruction |
-| `sealevel-attacks-solana` | [coral-xyz/sealevel-attacks](https://github.com/coral-xyz/sealevel-attacks) — **Anchor** examples of Solana exploit patterns & mitigations (educational) |
-| `neodyme-solana-security-workshop` | [workshop.neodyme.io](https://workshop.neodyme.io/) + [neodyme-breakpoint-workshop](https://github.com/neodyme-labs/neodyme-breakpoint-workshop) — **mdBook** Solana security levels (intentionally vulnerable code; legal notice on site) |
-| `osec-solana-auditor-introduction` | [Osec blog](https://osec.io/blog/2022-03-14-solana-security-intro) — **Solana: An Auditor’s Introduction** (runtime, accounts, BPF; Mar 2022; verify current docs) |
+| `arkham-leading-crypto-analysis-tools` | [Arkham research](https://info.arkm.com/research/leading-crypto-analysis-tools-for-traders-investors) — survey of **fundamental / technical / on-chain** tool landscape for traders (not investment advice) |
 | `armaniferrante-x-status-solana-reference` | [@armaniferrante X post](https://x.com/armaniferrante/status/1411589629384355840) — **citation bookmark** (open URL for verbatim text) |
+| `behavioral-risk-screening-concepts` | Large-value / high-frequency / transit behavior, rapid-transit tx rules (educational) |
+| `bellingcat-investigation-toolkit` | Bellingcat OSINT toolkit pointer (GitBook + GitHub catalog) |
+| `blockchain-analytics-operations` | Analytics platforms, compliance/forensic use cases |
+| `blockchain-intelligence-fundamentals` | BI basics, tool types, payment rails |
+| `blockchain-intelligence-playbook` | **Index** — routes to other skills; “choosing a skill” guidance |
+| `blockchain-spider-toolkit` | [BlockchainSpider](https://github.com/wuzhy1ng/BlockchainSpider) — Python/Scrapy on-chain **data collection** (EVM/Solana, subgraphs) |
+| `chainalysis-sanctions-screening` | **Chainalysis** public **Sanctions API** + EVM **oracle** router (OFAC SDN–oriented checks; verify live docs; see `Chainalysis.md` excerpt) |
+| `cmichel-smart-contract-auditor-guide` | [cmichel.io](https://cmichel.io/how-to-become-a-smart-contract-auditor/) — **EVM** smart contract **auditor** learning path & FAQ (educational; article dated 2021) |
+| `cross-chain-clustering-techniques-agent` | Multi-chain clustering: bridges, wrapped assets, unified graphs, cross-chain heuristics |
+| `crypto-investigation-compliance` | Crime map, ethical investigation workflow |
+| `crypto-market-structures` | Max pain, ETFs, arbitrage, TA flags (educational) |
+| `defi-admin-takeover-mitigation-lessons` | Privileged-access failures (e.g. [Drift hack](https://www.chainalysis.com/blog/lessons-from-the-drift-hack/)): signers, nonces, oracles, monitoring |
+| `defi-security-audit-agent` | DeFi audit/rug-risk triage: contracts, liquidity, governance, bridges, evidence reports |
+| `evm-solidity-defi-triage-agent` | EVM Solidity DeFi triage: proxies, oracles, reentrancy, access control (Ethereum/L2) |
+| `fatf-glossary-reference` | [FATF Glossary](https://www.fatf-gafi.org/en/pages/fatf-glossary.html) — official **AML/CFT** terminology (educational; not legal advice) |
+| `flash-loan-exploit-investigator-agent` | Flash-loan / atomic DeFi post-mortems: EVM + Solana traces, impact, mitigations, read-only sim |
+| `honeypot-detection-techniques` | Honeypot-style token checks: EVM transfer gates, SPL/Token-2022, safe validation |
+| `impersonator-dapp-devtools` | [Impersonator](https://github.com/impersonator-eth/impersonator) / [Impersonator Solana](https://github.com/impersonator-eth/impersonator-solana) — dApp **read-only address** UX via WalletConnect (dev/testing; strong ethics guardrails) |
 | `katana-web-crawling` | Crawling / spidering with Katana |
 | `lcamtuf-afl-documentation` | [lcamtuf AFL](https://lcamtuf.coredump.cx/afl/) — **American Fuzzy Lop** classic docs (coverage-guided fuzzing for C/C++; see **AFL++** for maintained fork) |
+| `mev-bot-infrastructure-analysis-agent` | MEV infrastructure: searchers, bundles/builders, strategy fingerprints, concentration, public data |
+| `mev-bot-rug-coordination-investigator-agent` | MEV × rug hypotheses: bundle overlap, timing, joint flows, confidence-scored case studies |
+| `mots-transaction-semantics` | [MoTS](https://github.com/wuzhy1ng/MoTS) — legacy **KYT / transaction semantics** Scrapy research code (merged upstream note → prefer BlockchainSpider for current work) |
+| `neodyme-solana-security-workshop` | [workshop.neodyme.io](https://workshop.neodyme.io/) + [neodyme-breakpoint-workshop](https://github.com/neodyme-labs/neodyme-breakpoint-workshop) — **mdBook** Solana security levels (intentionally vulnerable code; legal notice on site) |
+| `on-chain-investigator-agent` | On-chain forensics persona: tracing, contracts, scam patterns, evidence reports |
+| `on-chain-research-tokenomics` | On-chain metrics, tokenomics |
+| `osec-solana-auditor-introduction` | [Osec blog](https://osec.io/blog/2022-03-14-solana-security-intro) — **Solana: An Auditor’s Introduction** (runtime, accounts, BPF; Mar 2022; verify current docs) |
+| `phalcon-compliance-documentation` | Pointer to **Phalcon Compliance** public docs portal (compliance investigation / monitoring product docs) |
+| `range-ai-investigation-playbook` | **Range AI** MCP investigation workflow (risk, sanctions, flows, cross-chain) + one-shot prompt |
+| `risk-exposure-screening-concepts` | Risk **indicator** taxonomies, exposure value/%, address vs tx screening templates (educational) |
+| `rug-pull-pattern-detection-agent` | Launch rug-risk: LP/dev patterns, locks, coordinated exits, red-flag scoring (public data) |
+| `sandwich-attack-investigator-agent` | DEX sandwich MEV post-mortems: EVM + Solana bundles, slippage/profit estimates, evidence packs |
+| `sealevel-attacks-solana` | [coral-xyz/sealevel-attacks](https://github.com/coral-xyz/sealevel-attacks) — **Anchor** examples of Solana exploit patterns & mitigations (educational) |
+| `solana-clustering-advanced` | Advanced Solana clustering: graphs, bundles, launchpads, PDAs, ML |
+| `solana-clustering-case-study-agent` | Solana clustering → public case studies, threads, evidence packs, reproducible exports |
+| `solana-defi-vulnerability-analyst-agent` | Solana DeFi program risks: Anchor/PDAs/CPIs, oracles, pools, SPL, historical tx reconstruction |
+| `solana-onchain-intelligence-resources` | Solana intel **resource router**: Helius, Range MCP, Tavily, PayAI x402, React Flow, Solana.com skills (`llms.txt` indexes), [Solana Policy Institute](https://www.solanapolicyinstitute.org/) (policy/education) |
+| `solana-tracing-specialist` | Solana-focused tracing: ATAs, SPL, indexers, fund-flow graphs |
+| `transaction-screening-workflow-concepts` | Tx/transfer screening, deposit vs withdrawal, CSV, list/detail, STR-style exports (educational) |
 
 Copy `.cursor/skills/` into a project or symlink for global use, for example:
 
