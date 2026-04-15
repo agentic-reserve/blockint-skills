@@ -13,6 +13,7 @@ Skills live under `.cursor/skills/`. The **`blockchain-intelligence-playbook`** 
 | `blockchain-analytics-operations` | Analytics platforms, compliance/forensic use cases |
 | `phalcon-compliance-documentation` | Pointer to **Phalcon Compliance** public docs portal (compliance investigation / monitoring product docs) |
 | `risk-exposure-screening-concepts` | Risk **indicator** taxonomies, exposure value/%, address vs tx screening templates (educational) |
+| `behavioral-risk-screening-concepts` | Large-value / high-frequency / transit behavior, rapid-transit tx rules (educational) |
 | `on-chain-research-tokenomics` | On-chain metrics, tokenomics |
 | `crypto-investigation-compliance` | Crime map, ethical investigation workflow |
 | `bellingcat-investigation-toolkit` | Bellingcat OSINT toolkit pointer (GitBook + GitHub catalog) |

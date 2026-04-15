@@ -72,4 +72,8 @@ For a **single transaction**, engines often provide:
 - **Do not** assist with **evading** screening, mixers for illicit purpose, or **circumventing** law enforcement processes.  
 - **Separate** on-chain **facts** from **vendor scoring**—document both when reporting.
 
+## See also
+
+- **behavioral-risk-screening-concepts** — volume, velocity, and transit-style **behavior** heuristics (complements label-based exposure).
+
 **Goal:** give investigators a **shared vocabulary** for exposure-style screening without binding any specific **product** behavior or **legal** outcome.
