@@ -17,6 +17,7 @@ Skills live under `.cursor/skills/`. The **`blockchain-intelligence-playbook`** 
 | `crypto-market-structures` | Max pain, ETFs, arbitrage, TA flags (educational) |
 | `on-chain-investigator-agent` | On-chain forensics persona: tracing, contracts, scam patterns, evidence reports |
 | `solana-tracing-specialist` | Solana-focused tracing: ATAs, SPL, indexers, fund-flow graphs |
+| `solana-onchain-intelligence-resources` | Solana intel **resource router**: Helius, Range MCP, Tavily, PayAI x402, React Flow, Solana.com skills (`llms.txt` indexes) |
 | `solana-clustering-advanced` | Advanced Solana clustering: graphs, bundles, launchpads, PDAs, ML |
 | `solana-clustering-case-study-agent` | Solana clustering → public case studies, threads, evidence packs, reproducible exports |
 | `defi-security-audit-agent` | DeFi audit/rug-risk triage: contracts, liquidity, governance, bridges, evidence reports |

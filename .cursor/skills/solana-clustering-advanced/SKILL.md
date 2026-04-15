@@ -11,7 +11,7 @@ description: Applies advanced Solana address-clustering—transaction graphs, te
 
 **Clusters are probabilistic.** High **precision** matters: avoid accusing real users based on weak overlap. Document **thresholds**, **confidence**, and **limitations**.
 
-For baseline tracing and ATA resolution, use **solana-tracing-specialist**. For generic UTXO/account clustering concepts, use **address-clustering-attribution**. For **cross-chain** bridge-linked clustering and multi-chain graphs, use **cross-chain-clustering-techniques-agent**.
+For baseline tracing and ATA resolution, use **solana-tracing-specialist**. For generic UTXO/account clustering concepts, use **address-clustering-attribution**. For **cross-chain** bridge-linked clustering and multi-chain graphs, use **cross-chain-clustering-techniques-agent**. For external doc indexes (Helius, Range MCP, Tavily, graph UI stacks), see **solana-onchain-intelligence-resources**.
 
 Do **not** assist with harassment, false public accusations, or deanonymization campaigns. Do **not** treat vendor labels as ground truth without verification.
 

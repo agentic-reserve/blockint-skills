@@ -1,6 +1,6 @@
 ---
 name: blockchain-intelligence-playbook
-description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, crypto market mechanics, OSINT (Bellingcat toolkit), DeFi/MEV/rug skills, and Katana web crawling. Use when the task spans multiple topics or the user needs help picking which named skill to load.
+description: Index skill for the blockint-skills bundle—includes a “choosing a skill” routing map and routes to focused skills on blockchain intelligence fundamentals, address clustering, analytics, tokenomics, investigation ethics, crypto market mechanics, OSINT (Bellingcat toolkit), Solana external stacks (Helius, Range MCP, Tavily, PayAI, React Flow), DeFi/MEV/rug skills, and Katana web crawling. Use when the task spans multiple topics or the user needs help picking which named skill to load.
 ---
 
 # Blockchain intelligence — skill index
@@ -15,6 +15,7 @@ This repository splits topics into **focused skills** (load the specific skill w
 | General OSINT tool discovery (non-chain) | **bellingcat-investigation-toolkit** |
 | End-to-end on-chain forensics persona | **on-chain-investigator-agent** |
 | Solana txs, ATAs, SPL | **solana-tracing-specialist** |
+| Helius/Range/Tavily docs, MCP, graph UI (React Flow), x402 (PayAI) | **solana-onchain-intelligence-resources** |
 | Solana entity clustering / Jito / launchpads | **solana-clustering-advanced** |
 | Cross-chain bridges and unified graphs | **cross-chain-clustering-techniques-agent** |
 | Broad DeFi audit + rug/governance | **defi-security-audit-agent** |
@@ -45,6 +46,7 @@ When in doubt, load **on-chain-investigator-agent** or this index.
 | **crypto-market-structures** | Max pain, covered-call ETFs, arbitrage, bull/bear **flags** (non-prescriptive) |
 | **on-chain-investigator-agent** | **End-to-end** forensic investigator persona: tracing, contracts, scam heuristics, evidence reports, ethics |
 | **solana-tracing-specialist** | **Solana-only** forensics: ATAs, SPL flows, RPC/indexer patterns, Jito/DEX inner ix, evidence packs |
+| **solana-onchain-intelligence-resources** | **Resource router** for Solana intel stacks: Helius, Range MCP, Tavily, PayAI x402, React Flow, Solana Foundation skills (`llms.txt` indexes) |
 | **solana-clustering-advanced** | **Solana** entity clustering: graphs, Jito/launchpad heuristics, PDAs, ML validation, confidence scoring |
 | **solana-clustering-case-study-agent** | **Solana** clustering → **case studies**: narrative, visuals, CSV/query exports, thread or long-form |
 | **defi-security-audit-agent** | **DeFi** security / rug-risk triage: contracts, liquidity, governance, bridges, severity reports from public data |

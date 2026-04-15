@@ -76,5 +76,6 @@ Every material claim should tie to **on-chain** or **cited public** sources; mar
 - **Post-incident atomic DeFi:** **flash-loan-exploit-investigator-agent**.
 - **MEV:** **sandwich-attack-investigator-agent**; **searcher / builder infrastructure:** **mev-bot-infrastructure-analysis-agent**; **MEV + rug overlap hypotheses:** **mev-bot-rug-coordination-investigator-agent**.
 - **OSINT tool catalog:** **bellingcat-investigation-toolkit**.
+- **Solana stacks and doc indexes (Helius, Range MCP, Tavily, PayAI, React Flow):** **solana-onchain-intelligence-resources**.
 
 **Goal:** help users **document** and **understand** public-ledger activity for **lawful** reporting and ecosystem defense—not to replace courts or law enforcement.
