@@ -1,15 +1,16 @@
 # blockint-skills
 
-Public **Cursor Agent Skills** for **blockchain intelligence**, on-chain research, **compliance / screening** concepts, **DeFi and MEV** investigation patterns, **Solana** resources, **OSINT** pointers, **[Katana](https://github.com/projectdiscovery/katana)** web crawling, and selected **security-research** references (e.g. classic **AFL** docs).
+Public **Cursor Agent Skills** for **blockchain intelligence**, on-chain research, **compliance / screening** concepts, **DeFi and MEV** investigation patterns, **Solana** resources, **OSINT** pointers, **[Katana](https://github.com/projectdiscovery/katana)** web crawling, selected **security-research** references (e.g. classic **AFL** docs), and a pointer to the **[Agent Skills](https://github.com/agentskills/agentskills)** open-format **specification** ([agentskills.io](https://agentskills.io)).
 
 **Repository:** [github.com/agentic-reserve/blockint-skills](https://github.com/agentic-reserve/blockint-skills)
 
-Skills live under `.cursor/skills/`. The **`blockchain-intelligence-playbook`** skill is the **index** (routing + “choosing a skill”); the table below lists **43** skill directories (**1** index + **42** topical).
+Skills live under `.cursor/skills/`. The **`blockchain-intelligence-playbook`** skill is the **index** (routing + “choosing a skill”); the table below lists **44** skill directories (**1** index + **43** topical).
 
 | Directory | Topic |
 |-----------|--------|
 | `address-clustering-attribution` | **Clustering** heuristics, entity/label/tag, attribution |
 | `address-screening-workflow-concepts` | Tags/markers, bulk CSV import, address list/detail, blacklist/whitelist patterns (educational) |
+| `agentskills-specification` | [agentskills/agentskills](https://github.com/agentskills/agentskills) — **Agent Skills** open **format** (spec, docs, examples; [agentskills.io](https://agentskills.io)) |
 | `arkham-leading-crypto-analysis-tools` | [Arkham research](https://info.arkm.com/research/leading-crypto-analysis-tools-for-traders-investors) — survey of **fundamental / technical / on-chain** tool landscape for traders (not investment advice) |
 | `armaniferrante-x-status-solana-reference` | [@armaniferrante X post](https://x.com/armaniferrante/status/1411589629384355840) — **citation bookmark** (open URL for verbatim text) |
 | `behavioral-risk-screening-concepts` | Large-value / high-frequency / transit behavior, rapid-transit tx rules (educational) |
