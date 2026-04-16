@@ -33,12 +33,9 @@ Use this skill together with **solana-tracing-specialist**, **solana-clustering-
 - **Documentation index:** [helius.dev/llms.txt](https://www.helius.dev/llms.txt) — discover blog and guides on RPC, DAS, webhooks, compression, MEV, Surfpool, congestion, and tooling.
 - Typical investigation uses: enhanced RPC and history, parsed transactions, webhooks, Geyser-style streaming. Always confirm methods against current Helius docs for your plan and tier.
 
-## Dune Sim (SVM and multichain realtime APIs)
+## Dune Sim and Dune Analytics (standalone skill)
 
-- **Documentation index:** [docs.sim.dune.com/llms.txt](https://docs.sim.dune.com/llms.txt) — **Sim** APIs for **EVM** and **SVM** surfaces (balances, activity, transactions, subscriptions), plus **[Dune Analytics API](https://docs.sim.dune.com/dune-analytics-api.md)** for historical SQL over Dune datasets.
-- **SVM entry points:** [SVM overview](https://docs.sim.dune.com/svm/overview.md), [Solana balances](https://docs.sim.dune.com/svm/balances.md), [Solana transactions](https://docs.sim.dune.com/svm/transactions.md); chain pages include [Solana](https://docs.sim.dune.com/chains/solana.md) and [Eclipse](https://docs.sim.dune.com/chains/eclipse.md) per docs index.
-- **Machine-readable API:** [docs.sim.dune.com/openapi.json](https://docs.sim.dune.com/openapi.json) — confirm auth, CUs, and parameters in live docs.
-- **In bundle:** **dune-sim-onchain-analytics** — compute units, error handling, key proxy patterns; not a substitute for Helius when you need Solana **RPC**-specific features only documented there.
+- **Load the dedicated skill:** **dune-sim-onchain-analytics** — operational workflows (Sim vs SQL, EVM vs SVM, CUs, subscriptions, key safety), not duplicated here. Use Helius (above) for **RPC-native** Solana features; use **dune-sim-onchain-analytics** when building on Dune’s **Sim** and **Analytics API** surfaces.
 
 ## BlockchainSpider (open-source dataset collection)
 

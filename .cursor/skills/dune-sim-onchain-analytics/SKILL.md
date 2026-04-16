@@ -1,50 +1,72 @@
 ---
 name: dune-sim-onchain-analytics
-description: "Routes to Dune Sim and Dune Analytics API documentation (docs.sim.dune.com)—real-time multichain wallet and token analytics (EVM and SVM or Solana), subscriptions and webhooks, plus historical SQL via the Analytics API. Use when the user names Dune Sim, Sim API, on-chain analytics with Dune, or needs the llms.txt doc index—not for embedding API keys in clients or substituting live billing, quotas, and Terms."
+description: "Standalone skill for on-chain analytics and product work with Dune—choose Sim realtime APIs (EVM and SVM including Solana) vs Dune Analytics SQL, design CU-aware flows, subscriptions and dashboards, and safe key handling. Use when building or analyzing with Dune Sim, wallet or token intelligence, multichain balances and activity, or SQL over Dune datasets—not for legal sanctions conclusions or exposing API keys in browsers."
 ---
 
-# Dune — Sim and on-chain analytics (reference)
+# Dune Sim and Dune Analytics — on-chain analytics skill
 
-**Educational routing only.** Read **live** docs for endpoint paths, auth headers, chain coverage, and **Compute Units (CUs)**. This skill summarizes discovery entry points and how Sim relates to **Dune Analytics** SQL access.
+This skill is the **primary home** for Dune-powered workflows in blockint: **how to think**, **what to call when**, and **how to ship** analytics that combine realtime **Sim** data with **historical SQL** where appropriate. It is **not** a thin link list—use it to structure tasks; open **[docs.sim.dune.com/llms.txt](https://docs.sim.dune.com/llms.txt)** and **[openapi.json](https://docs.sim.dune.com/openapi.json)** for exact parameters and auth as you implement.
 
-## Canonical discovery
+Educational and integration guidance—users remain responsible for **API keys**, **billing**, and **Terms**.
 
-| Resource | URL |
-|----------|-----|
-| **LLM / agent index** | [docs.sim.dune.com/llms.txt](https://docs.sim.dune.com/llms.txt) — machine-readable list of pages (start here to find Markdown topics). |
-| **Developer quickstart** | [docs.sim.dune.com/index.md](https://docs.sim.dune.com/index.md) |
-| **Build with AI** | [docs.sim.dune.com/build-with-ai.md](https://docs.sim.dune.com/build-with-ai.md) — `llms.txt`, per-page Markdown, OpenAPI, AI search. |
-| **Agent reference (IDE agents)** | [docs.sim.dune.com/agent-reference.md](https://docs.sim.dune.com/agent-reference.md) — copy-in reference for Claude Code, Cursor, Codex, Gemini CLI, etc. |
-| **OpenAPI** | [docs.sim.dune.com/openapi.json](https://docs.sim.dune.com/openapi.json) |
+## Mental model: two engines
 
-## What “Sim” vs “Dune Analytics API” means here
+| Engine | Best for | Typical outputs |
+|--------|-----------|-----------------|
+| **Dune Sim** | **Live** wallet and token state—balances, activity feeds, transactions, NFT collectibles, DeFi positions, stablecoin views, **webhook subscriptions** | Apps, agents, alerts, “what does this address hold / do **now**” |
+| **Dune Analytics API** | **Historical** exploration—**SQL** over Dune’s curated blockchain tables | Research, cohorts, backtests, dashboards backed by queries |
 
-| Layer | Role |
-|--------|------|
-| **Sim APIs** | Real-time and streaming-style **wallet** and **token** surfaces—balances, activity, transactions, NFT collectibles, DeFi positions, stablecoins, **subscriptions** (webhooks), plus many **per-chain** guides under `chains/`. |
-| **Dune Analytics API** | **[Custom SQL](https://docs.sim.dune.com/dune-analytics-api.md)** over **historical** blockchain datasets—complements Sim’s realtime APIs for analytics and research workflows. |
+**Rule of thumb:** Need **streaming or low-latency** address/token views across many **EVM** chains or **SVM** (Solana / Eclipse, etc.) → start with **Sim** and chain-specific docs under `chains/`. Need **long-horizon** or **custom aggregations** across Dune SQL models → **Analytics API** and query execution docs.
 
-## Doc clusters (high level)
+## When to use which surface (decision flow)
 
-- **Billing and limits:** [Compute Units](https://docs.sim.dune.com/compute-units.md); [Error handling](https://docs.sim.dune.com/error-handling.md).
-- **EVM:** [Overview](https://docs.sim.dune.com/evm/overview.md), [Activity](https://docs.sim.dune.com/evm/activity.md), [Balances](https://docs.sim.dune.com/evm/balances.md), [Transactions](https://docs.sim.dune.com/evm/transactions.md), [Subscriptions](https://docs.sim.dune.com/evm/subscriptions.md), [Token holders / info](https://docs.sim.dune.com/evm/token-holders.md), [Supported chains](https://docs.sim.dune.com/evm/supported-chains.md), [Token filtering / spam](https://docs.sim.dune.com/token-filtering.md).
-- **SVM (Solana and related):** [SVM overview](https://docs.sim.dune.com/svm/overview.md), [Solana balances](https://docs.sim.dune.com/svm/balances.md), [Solana transactions](https://docs.sim.dune.com/svm/transactions.md); chain hub includes [Solana](https://docs.sim.dune.com/chains/solana.md) and [Eclipse](https://docs.sim.dune.com/chains/eclipse.md) per index.
-- **Security pattern for keys:** [Cloudflare proxy](https://docs.sim.dune.com/proxy.md) — avoid exposing API keys in browser clients.
+1. **Single address or small set** — balances, recent activity, NFTs, token metadata → Sim **EVM** or **SVM** endpoints (see overviews below).  
+2. **Ongoing monitoring** — balance or activity changes for a watchlist → **Subscriptions** / webhooks (create, update addresses, lifecycle per docs).  
+3. **Token distribution or “top holders” style** — Sim **token holders** / related EVM docs; confirm **spam / filtering** parameters (e.g. exclude low-liquidity noise) in live API reference.  
+4. **Cross-wallet analytics, custom metrics, or historical slices** — execute or manage **SQL** via **Dune Analytics API**; combine results with Sim in the application layer if needed.  
+5. **Multichain** — confirm **chain ID** and **supported chains** in docs before assuming parity across EVM L2s or SVM deployments.
 
-## How to combine with blockint
+## EVM vs SVM (Solana-class)
 
-| Need | Skill |
-|------|--------|
-| Abstract BI / analytics product context | **blockchain-analytics-operations** |
-| Solana tracing and forensics patterns | **solana-tracing-specialist**, **solana-onchain-intelligence-resources** |
-| End-to-end investigator persona | **on-chain-investigator-agent** |
-| Range / sanctions / risk products | **range-ai-investigation-playbook** (different vendor; compare scopes in live docs) |
+- **EVM:** Broad endpoint family—**activity**, **balances**, **transactions**, **collectibles**, **DeFi positions**, **stablecoins**, **subscriptions**, **token info** / holders. Use **[EVM overview](https://docs.sim.dune.com/evm/overview.md)** as the map.  
+- **SVM:** **[SVM overview](https://docs.sim.dune.com/svm/overview.md)** — realtime **balances** and **transactions** for Solana-class addresses; align address encoding and chain scope with docs. For **Solana-only RPC-depth** debugging, pair with **solana-tracing-specialist** and provider docs (e.g. Helius)—Sim is **product API**, not a full RPC replacement.
+
+## Operations: CUs, errors, keys
+
+- **Compute Units (CUs)** — Billing is CU-based; estimate cost per workflow (polling vs webhooks, batch sizes). Read **[Compute Units](https://docs.sim.dune.com/compute-units.md)** before production sizing.  
+- **Errors** — Implement retries with backoff per **[Error handling](https://docs.sim.dune.com/error-handling.md)**; never treat 429/5xx as permanent failure without reading response bodies.  
+- **Secrets** — **No** Sim API keys in front-end bundles. Use server routes or **[Cloudflare proxy](https://docs.sim.dune.com/proxy.md)** pattern from docs.  
+- **Spam / noise** — Use documented **token filtering** / `exclude_spam_tokens`-style controls where available; labels and prices change—revalidate for reporting.
+
+## Agent and IDE integration
+
+- **[Agent reference](https://docs.sim.dune.com/agent-reference.md)** — drop-in file for Claude Code, Cursor, Codex, Gemini CLI, etc.  
+- **[Build with AI](https://docs.sim.dune.com/build-with-ai.md)** — `llms.txt`, Markdown pages, OpenAPI for tool-calling designs.
+
+## How this skill fits blockint
+
+| Task | Pair with |
+|------|-----------|
+| Abstract “what is blockchain analytics” | **blockchain-analytics-operations** |
+| Solana forensic tracing patterns | **solana-tracing-specialist** |
+| Full investigator narrative | **on-chain-investigator-agent** |
+| Sanctions / compliance screening products | **range-ai-investigation-playbook**, **chainalysis-sanctions-screening** — different stacks; do not conflate with Dune outputs |
 
 ## Guardrails
 
-- **Secrets** — Keep API keys in **environment variables**, secret stores, or server-side proxies; follow Dune’s **proxy** guidance for client-facing apps.  
-- **Compliance** — Analytics data supports research; **sanctions / legal** conclusions need purpose-built screening and counsel.  
-- **Rate limits / CUs** — Design retries and budgets using current **Compute Units** documentation.  
-- **Accuracy** — Token lists, pricing, and spam filters evolve; confirm parameters (e.g. `exclude_spam_tokens`) in live API references.
+- **Compliance** — Dune data supports **research**; **sanctions** and **legal** outcomes need designated tools and counsel.  
+- **Attribution** — Wallet labels and heuristics can be wrong; separate **fact** (chain events) from **inference** (entity names).  
+- **ToS** — Respect Dune’s terms, rate limits, and attribution for published queries or embeds.
 
-**Goal:** stable pointers to **[docs.sim.dune.com/llms.txt](https://docs.sim.dune.com/llms.txt)** and **[openapi.json](https://docs.sim.dune.com/openapi.json)** for **Dune Sim** and **Dune Analytics API** work in on-chain analytics and agent integrations.
+## Authoritative specs (keep open while coding)
+
+| Resource | URL |
+|----------|-----|
+| Doc index | [docs.sim.dune.com/llms.txt](https://docs.sim.dune.com/llms.txt) |
+| Quickstart | [docs.sim.dune.com/index.md](https://docs.sim.dune.com/index.md) |
+| Dune Analytics API (SQL) | [docs.sim.dune.com/dune-analytics-api.md](https://docs.sim.dune.com/dune-analytics-api.md) |
+| OpenAPI | [docs.sim.dune.com/openapi.json](https://docs.sim.dune.com/openapi.json) |
+
+**EVM:** [overview](https://docs.sim.dune.com/evm/overview.md) · [activity](https://docs.sim.dune.com/evm/activity.md) · [balances](https://docs.sim.dune.com/evm/balances.md) · [transactions](https://docs.sim.dune.com/evm/transactions.md) · [subscriptions](https://docs.sim.dune.com/evm/subscriptions.md) · [supported chains](https://docs.sim.dune.com/evm/supported-chains.md) · [token filtering](https://docs.sim.dune.com/token-filtering.md)
+
+**SVM:** [overview](https://docs.sim.dune.com/svm/overview.md) · [balances](https://docs.sim.dune.com/svm/balances.md) · [transactions](https://docs.sim.dune.com/svm/transactions.md)

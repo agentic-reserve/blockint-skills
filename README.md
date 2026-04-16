@@ -26,7 +26,7 @@ Skills live under `.cursor/skills/`. The **`blockchain-intelligence-playbook`** 
 | `crypto-market-structures` | Max pain, ETFs, arbitrage, TA flags (educational) |
 | `defi-admin-takeover-mitigation-lessons` | Privileged-access failures (e.g. [Drift hack](https://www.chainalysis.com/blog/lessons-from-the-drift-hack/)): signers, nonces, oracles, monitoring |
 | `defi-security-audit-agent` | DeFi audit/rug-risk triage: contracts, liquidity, governance, bridges, evidence reports |
-| `dune-sim-onchain-analytics` | [Dune Sim](https://docs.sim.dune.com/llms.txt) + [Dune Analytics API](https://docs.sim.dune.com/dune-analytics-api.md) — realtime **EVM/SVM** analytics, subscriptions, historical SQL; [OpenAPI](https://docs.sim.dune.com/openapi.json) |
+| `dune-sim-onchain-analytics` | **Standalone** Dune skill — Sim vs SQL, **EVM/SVM** workflows, CUs, webhooks, key safety; docs via [llms.txt](https://docs.sim.dune.com/llms.txt) / [OpenAPI](https://docs.sim.dune.com/openapi.json) |
 | `evm-solidity-defi-triage-agent` | EVM Solidity DeFi triage: proxies, oracles, reentrancy, access control (Ethereum/L2) |
 | `fatf-glossary-reference` | [FATF Glossary](https://www.fatf-gafi.org/en/pages/fatf-glossary.html) — official **AML/CFT** terminology (educational; not legal advice) |
 | `flash-loan-exploit-investigator-agent` | Flash-loan / atomic DeFi post-mortems: EVM + Solana traces, impact, mitigations, read-only sim |
